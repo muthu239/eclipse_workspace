@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103332" started-at="2021-06-06T23:50:54 IST" finished-at="2021-06-06T23:52:37 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103332" started-at="2021-06-06T23:50:54 IST" finished-at="2021-06-06T23:52:37 IST">
+      <class name="mainspringTest.TestScrumRetrospection">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:mainspringTest.TestScrumRetrospection@6ebc05a6]" name="setUp" is-config="true" duration-ms="85083" started-at="2021-06-06T23:50:54 IST" finished-at="2021-06-06T23:52:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSprintRetrospection()[pri:0, instance:mainspringTest.TestScrumRetrospection@6ebc05a6]" name="testSprintRetrospection" duration-ms="18214" started-at="2021-06-06T23:52:19 IST" finished-at="2021-06-06T23:52:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSprintRetrospection -->
+      </class> <!-- mainspringTest.TestScrumRetrospection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

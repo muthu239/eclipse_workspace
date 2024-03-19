@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-11T13:26:17.921Z",
+        "line": 3,
+        "name": "Sign Up Scenario",
+        "description": "",
+        "id": "sign-up;sign-up-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14838000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Application Home Page",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Application Page Title is PHP Travels",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.application_Page_Title_is_PHP_Travels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 295000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on MY ACCOUNT",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.user_clicks_on_MY_ACCOUNT()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2502000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Sign Up option",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.user_clicks_on_Sign_Up_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigate to Sign Up page",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.user_navigate_to_Sign_Up_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1960000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters personal data and the entered values are validated",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.user_enters_personal_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Roronoa",
+                  "Zoro",
+                  "9786583300",
+                  "muthu99n23@gmail.com",
+                  "aqwer1234@",
+                  "aqwer1234@"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on Sign Up button",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.click_on_Sign_Up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 294000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepdefinitions.SignupSteps.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up",
+    "description": "",
+    "id": "sign-up",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Application.feature",
+    "tags": []
+  }
+]

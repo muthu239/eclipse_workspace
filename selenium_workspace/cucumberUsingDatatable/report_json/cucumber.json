@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-03T15:18:44.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4448758800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.startBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User Sign up scenario",
+        "description": "",
+        "id": "signup-process;user-sign-up-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 199999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2094189400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage of myContactForm",
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.user_is_on_homepage_of_myContactForm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3417818200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user needs to click on here button for signup",
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.user_needs_to_click_on_here_button_for_signup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4516957700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the details of user",
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.enter_the_details_of_user(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Roronoa zoro",
+                  "muthu99n23@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"success_status\"]\"}\n  (Session info: chrome\u003d121.0.6167.140)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-Q72SAP8P\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\\Users\\muthu\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 286e3e4442298c51800655077a2ade78\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"success_status\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepdefinitions.ContactformSteps.after_giving_details_submit_the_form(ContactformSteps.java:80)\r\n\tat ✽.after giving details submit the form(file:///E:/eclipse_workspace/selenium_workspace/cucumberUsingDatatable/src/main/java/features/Application.feature:8)\r\n",
+              "duration": 31259859400,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "after giving details submit the form",
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.after_giving_details_submit_the_form()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Signup process",
+    "description": "",
+    "id": "signup-process",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Application.feature",
+    "tags": []
+  }
+]

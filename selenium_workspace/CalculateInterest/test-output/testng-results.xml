@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="229361" started-at="2021-05-24T22:16:23 IST" finished-at="2021-05-24T22:20:12 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="229361" started-at="2021-05-24T22:16:23 IST" finished-at="2021-05-24T22:20:12 IST">
+      <class name="InterestCalaculator.PageClass">
+        <test-method status="PASS" signature="calculateCarLoan(java.util.Hashtable)[pri:0, instance:InterestCalaculator.PageClass@6e2c9341]" name="calculateCarLoan" duration-ms="20651" started-at="2021-05-24T22:16:24 IST" data-provider="calculateCarLoan" finished-at="2021-05-24T22:16:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateCarLoan -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:InterestCalaculator.PageClass@6e2c9341]" name="afterTest" is-config="true" duration-ms="2" started-at="2021-05-24T22:16:45 IST" finished-at="2021-05-24T22:16:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="homeLoanEmiCalculator(java.util.Hashtable)[pri:1, instance:InterestCalaculator.PageClass@6e2c9341]" name="homeLoanEmiCalculator" duration-ms="31210" started-at="2021-05-24T22:16:45 IST" data-provider="homeLoanCalc" finished-at="2021-05-24T22:17:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=NewExcelWorkBook, startDate=Mar 2020, fees=0.28, oneTimeexpense=12.0, tenure=22.0, intRate=11.2, downPay=15.0, homeValue=450000.0, maintanence=3000.0, insurance=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanEmiCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:InterestCalaculator.PageClass@6e2c9341]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-05-24T22:17:16 IST" finished-at="2021-05-24T22:17:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testLoanCalculator(java.util.Hashtable)[pri:2, instance:InterestCalaculator.PageClass@6e2c9341]" name="testLoanCalculator" duration-ms="53757" started-at="2021-05-24T22:17:16 IST" data-provider="differentCalcRun" finished-at="2021-05-24T22:18:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=8.25, textbox3_locator=pageLoanTenureTextbox_CSS, slider2_locator=pageInterestRateSlider_xpath, textbox1_value=4050000.0, textbox1_locator=pageLoanAmountTextbox_CSS, textbox3_value=7.0, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=emi calculator, slider3_locator=pageLoanTenureSlider_xpath, textbox2_locator=pageInterestRateTextbox_CSS, slider1_locator=pageLoanAmountSlider_xpath}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:InterestCalaculator.PageClass@6e2c9341]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-24T22:18:10 IST" finished-at="2021-05-24T22:18:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testLoanCalculator(java.util.Hashtable)[pri:2, instance:InterestCalaculator.PageClass@6e2c9341]" name="testLoanCalculator" duration-ms="60677" started-at="2021-05-24T22:18:10 IST" data-provider="differentCalcRun" finished-at="2021-05-24T22:19:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=7.5, textbox3_locator=pageLoanTenureTextbox_CSS, slider2_locator=pageInterestRateSlider_xpath, textbox1_value=2796000.0, textbox1_locator=pageEmiTextbox_CSS, textbox3_value=11.0, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=loan amount calculator, slider3_locator=pageLoanTenureSlider_xpath, textbox2_locator=pageInterestRateTextbox_CSS, slider1_locator=pageEmiSlider_xpath}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:InterestCalaculator.PageClass@6e2c9341]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-24T22:19:10 IST" finished-at="2021-05-24T22:19:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testLoanCalculator(java.util.Hashtable)[pri:2, instance:InterestCalaculator.PageClass@6e2c9341]" name="testLoanCalculator" duration-ms="61056" started-at="2021-05-24T22:19:10 IST" data-provider="differentCalcRun" finished-at="2021-05-24T22:20:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=70000.0, textbox3_locator=pageInterestRateTextbox_CSS, slider2_locator=pageEmiSlider_xpath, textbox1_value=2500000.0, textbox1_locator=pageLoanAmountTextbox_CSS, textbox3_value=7.5, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=loan tenure calculator, slider3_locator=pageInterestRateSlider_xpath, textbox2_locator=pageEmiTextbox_CSS, slider1_locator=pageLoanAmountSlider_xpath}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:InterestCalaculator.PageClass@6e2c9341]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-24T22:20:11 IST" finished-at="2021-05-24T22:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:InterestCalaculator.PageClass@6e2c9341]" name="endReport" is-config="true" duration-ms="906" started-at="2021-05-24T22:20:11 IST" finished-at="2021-05-24T22:20:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- InterestCalaculator.PageClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test-Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="Url" value="https://www.policybazaar.com"/>
+    <classes>
+      <class name="com.insurance.test.TravelInsurance_test">
+        <methods>
+          <include name="testthree"/>
+          <include name="openurl" invocation-numbers="0"/>
+          <include name="testone" invocation-numbers="0 1 2"/>
+          <include name="testtwo" invocation-numbers="0 1 2"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.insurance.test.TravelInsurance_test -->
+    </classes>
+  </test> <!-- Test-Chrome(failed) -->
+  <test thread-count="5" name="Test-Firefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="Url" value="https://www.policybazaar.com"/>
+    <classes>
+      <class name="com.insurance.test.TravelInsurance_test">
+        <methods>
+          <include name="testthree"/>
+          <include name="openurl" invocation-numbers="0"/>
+          <include name="testone" invocation-numbers="0 1 2"/>
+          <include name="testtwo" invocation-numbers="0 1 2"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.insurance.test.TravelInsurance_test -->
+    </classes>
+  </test> <!-- Test-Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

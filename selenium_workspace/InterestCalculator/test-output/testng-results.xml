@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1456" started-at="2021-05-17T09:47:23 IST" finished-at="2021-05-17T09:47:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1456" started-at="2021-05-17T09:47:23 IST" finished-at="2021-05-17T09:47:24 IST">
+      <class name="com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest">
+        <test-method status="FAIL" signature="doZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@7181ae3f]" name="doZohoLoginTest" duration-ms="26" started-at="2021-05-17T09:47:23 IST" data-provider="getDatadoZohoLoginTest" finished-at="2021-05-17T09:47:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Test@12345, PageTitle=Zoho Accounts, Comment=Incorrect Username, UserName=testuser}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.dataDriven.frameWork.base.BaseUI.takeScreenShotOnFailure(BaseUI.java:289)
+at com.dataDriven.frameWork.base.BaseUI.reportFail(BaseUI.java:277)
+at com.dataDriven.frameWork.base.BaseUI.invokeBrowser(BaseUI.java:58)
+at com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest.doZohoLoginTest(ZohoLoginTest.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@7181ae3f]" name="afterTest" is-config="true" duration-ms="3" started-at="2021-05-17T09:47:23 IST" finished-at="2021-05-17T09:47:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="doZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@7181ae3f]" name="doZohoLoginTest" duration-ms="3" started-at="2021-05-17T09:47:23 IST" data-provider="getDatadoZohoLoginTest" finished-at="2021-05-17T09:47:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=anshulchauhan, PageTitle=Zoho Accounts, Comment=Incorrect Password, UserName=anshulc55@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.dataDriven.frameWork.base.BaseUI.takeScreenShotOnFailure(BaseUI.java:289)
+at com.dataDriven.frameWork.base.BaseUI.reportFail(BaseUI.java:277)
+at com.dataDriven.frameWork.base.BaseUI.invokeBrowser(BaseUI.java:58)
+at com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest.doZohoLoginTest(ZohoLoginTest.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@7181ae3f]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-05-17T09:47:24 IST" finished-at="2021-05-17T09:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="doZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@7181ae3f]" name="doZohoLoginTest" duration-ms="3" started-at="2021-05-17T09:47:24 IST" data-provider="getDatadoZohoLoginTest" finished-at="2021-05-17T09:47:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Test@12345, PageTitle=Zoho Home, Comment=Correct Login Credentials, UserName=anshulc55@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.dataDriven.frameWork.base.BaseUI.takeScreenShotOnFailure(BaseUI.java:289)
+at com.dataDriven.frameWork.base.BaseUI.reportFail(BaseUI.java:277)
+at com.dataDriven.frameWork.base.BaseUI.invokeBrowser(BaseUI.java:58)
+at com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest.doZohoLoginTest(ZohoLoginTest.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@7181ae3f]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-17T09:47:24 IST" finished-at="2021-05-17T09:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@7181ae3f]" name="endReport" is-config="true" duration-ms="487" started-at="2021-05-17T09:47:24 IST" finished-at="2021-05-17T09:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38792" started-at="2021-05-02T12:13:28 IST" finished-at="2021-05-02T12:14:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38792" started-at="2021-05-02T12:13:28 IST" finished-at="2021-05-02T12:14:07 IST">
+      <class name="com.selenium.miniProject.HandleBrowserWindows">
+        <test-method status="PASS" signature="mainMethod()[pri:0, instance:com.selenium.miniProject.HandleBrowserWindows@551aa95a]" name="mainMethod" duration-ms="38563" started-at="2021-05-02T12:13:29 IST" finished-at="2021-05-02T12:14:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMethod -->
+      </class> <!-- com.selenium.miniProject.HandleBrowserWindows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

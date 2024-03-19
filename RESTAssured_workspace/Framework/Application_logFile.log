@@ -1,0 +1,85 @@
+2024-01-15 18:02:00,349 INFO  - **********************************************
+2024-01-15 18:02:00,349 INFO  - **********************************************
+2024-01-15 18:02:00,349 INFO  - $$$$$$$$$    createRepoTestCase     $$$$$$$$$$$$$$
+2024-01-15 18:02:00,349 INFO  - **********************************************
+2024-01-15 18:02:00,350 INFO  - **********************************************
+2024-01-15 18:02:00,350 INFO  - Starting create repo test case
+2024-01-15 18:02:00,350 INFO  - Step 1 : Generating payload string
+2024-01-15 18:02:00,356 INFO  - Step 2 : Executing create repo API
+2024-01-15 18:02:00,359 INFO  - Request URI is entered - https://api.github.com/user/repos
+2024-01-15 18:02:00,359 INFO  - Request payload is -> {"name":"Hello-World1",
+"description":"Repo created using Rest API"
+}
+2024-01-15 18:02:04,067 INFO  - Response is -> {"id":743527053,"node_id":"R_kgDOLFFSjQ","name":"Hello-World1","full_name":"muthu239/Hello-World1","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/Hello-World1","description":"Repo created using Rest API","fork":false,"url":"https://api.github.com/repos/muthu239/Hello-World1","forks_url":"https://api.github.com/repos/muthu239/Hello-World1/forks","keys_url":"https://api.github.com/repos/muthu239/Hello-World1/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/Hello-World1/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/Hello-World1/teams","hooks_url":"https://api.github.com/repos/muthu239/Hello-World1/hooks","issue_events_url":"https://api.github.com/repos/muthu239/Hello-World1/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/Hello-World1/events","assignees_url":"https://api.github.com/repos/muthu239/Hello-World1/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/Hello-World1/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/Hello-World1/tags","blobs_url":"https://api.github.com/repos/muthu239/Hello-World1/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/Hello-World1/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/Hello-World1/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/Hello-World1/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/Hello-World1/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/Hello-World1/languages","stargazers_url":"https://api.github.com/repos/muthu239/Hello-World1/stargazers","contributors_url":"https://api.github.com/repos/muthu239/Hello-World1/contributors","subscribers_url":"https://api.github.com/repos/muthu239/Hello-World1/subscribers","subscription_url":"https://api.github.com/repos/muthu239/Hello-World1/subscription","commits_url":"https://api.github.com/repos/muthu239/Hello-World1/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/Hello-World1/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/Hello-World1/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/Hello-World1/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/Hello-World1/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/Hello-World1/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/Hello-World1/merges","archive_url":"https://api.github.com/repos/muthu239/Hello-World1/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/Hello-World1/downloads","issues_url":"https://api.github.com/repos/muthu239/Hello-World1/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/Hello-World1/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/Hello-World1/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/Hello-World1/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/Hello-World1/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/Hello-World1/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/Hello-World1/deployments","created_at":"2024-01-15T12:32:03Z","updated_at":"2024-01-15T12:32:03Z","pushed_at":"2024-01-15T12:32:03Z","git_url":"git://github.com/muthu239/Hello-World1.git","ssh_url":"git@github.com:muthu239/Hello-World1.git","clone_url":"https://github.com/muthu239/Hello-World1.git","svn_url":"https://github.com/muthu239/Hello-World1","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-01-15 18:02:04,072 INFO  - Step 3: Validating repository name
+2024-01-15 18:02:05,035 INFO  - Response value is _> Hello-World1
+2024-01-15 18:02:05,066 INFO  - Response value is _> Hello-World1
+2024-01-15 18:02:05,071 INFO  - Name assertion is done! 
+2024-01-15 18:02:05,071 INFO  - Step 4: Validating repository Description
+2024-01-15 18:02:05,119 INFO  - Response value is _> Repo created using Rest API
+2024-01-15 18:02:05,138 INFO  - Response value is _> Repo created using Rest API
+2024-01-15 18:02:05,138 INFO  - Description assertion is done! 
+2024-01-15 18:02:05,138 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-01-15 18:02:05,138 INFO  - **********************************************
+2024-01-15 18:02:05,138 INFO  - **********************************************
+2024-01-15 18:02:05,138 INFO  - X
+2024-01-15 18:02:05,139 INFO  - X
+2024-01-15 18:02:05,139 INFO  - X
+2024-01-15 18:02:05,139 INFO  - X
+2024-01-15 18:02:05,139 INFO  - X
+2024-01-15 18:02:05,153 INFO  - **********************************************
+2024-01-15 18:02:05,153 INFO  - **********************************************
+2024-01-15 18:02:05,153 INFO  - $$$$$$$$$    createRepoTestUsingPojo     $$$$$$$$$$$$$$
+2024-01-15 18:02:05,153 INFO  - **********************************************
+2024-01-15 18:02:05,153 INFO  - **********************************************
+2024-01-15 18:02:05,153 INFO  - Starting create repo test case
+2024-01-15 18:02:05,517 INFO  - Request URI is entered - https://api.github.com/user/repos
+2024-01-15 18:02:05,517 INFO  - Request payload is -> {
+  "name" : "ABC1",
+  "description" : "This is your first repo! Repo created using Rest API2"
+}
+2024-01-15 18:02:06,851 INFO  - Response is -> {"id":743527065,"node_id":"R_kgDOLFFSmQ","name":"ABC1","full_name":"muthu239/ABC1","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/ABC1","description":"This is your first repo! Repo created using Rest API2","fork":false,"url":"https://api.github.com/repos/muthu239/ABC1","forks_url":"https://api.github.com/repos/muthu239/ABC1/forks","keys_url":"https://api.github.com/repos/muthu239/ABC1/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/ABC1/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/ABC1/teams","hooks_url":"https://api.github.com/repos/muthu239/ABC1/hooks","issue_events_url":"https://api.github.com/repos/muthu239/ABC1/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/ABC1/events","assignees_url":"https://api.github.com/repos/muthu239/ABC1/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/ABC1/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/ABC1/tags","blobs_url":"https://api.github.com/repos/muthu239/ABC1/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/ABC1/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/ABC1/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/ABC1/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/ABC1/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/ABC1/languages","stargazers_url":"https://api.github.com/repos/muthu239/ABC1/stargazers","contributors_url":"https://api.github.com/repos/muthu239/ABC1/contributors","subscribers_url":"https://api.github.com/repos/muthu239/ABC1/subscribers","subscription_url":"https://api.github.com/repos/muthu239/ABC1/subscription","commits_url":"https://api.github.com/repos/muthu239/ABC1/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/ABC1/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/ABC1/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/ABC1/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/ABC1/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/ABC1/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/ABC1/merges","archive_url":"https://api.github.com/repos/muthu239/ABC1/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/ABC1/downloads","issues_url":"https://api.github.com/repos/muthu239/ABC1/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/ABC1/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/ABC1/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/ABC1/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/ABC1/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/ABC1/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/ABC1/deployments","created_at":"2024-01-15T12:32:06Z","updated_at":"2024-01-15T12:32:06Z","pushed_at":"2024-01-15T12:32:06Z","git_url":"git://github.com/muthu239/ABC1.git","ssh_url":"git@github.com:muthu239/ABC1.git","clone_url":"https://github.com/muthu239/ABC1.git","svn_url":"https://github.com/muthu239/ABC1","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-01-15 18:02:06,919 INFO  - Response value is _> ABC1
+2024-01-15 18:02:06,964 INFO  - Response value is _> This is your first repo! Repo created using Rest API2
+2024-01-15 18:02:06,993 INFO  - Response value is _> ABC1
+2024-01-15 18:02:07,026 INFO  - Response value is _> This is your first repo! Repo created using Rest API2
+2024-01-15 18:02:07,034 INFO  - **********************************************
+2024-01-15 18:02:07,034 INFO  - **********************************************
+2024-01-15 18:02:07,035 INFO  - $$$$$$$$$    DeleteRepoTestCase     $$$$$$$$$$$$$$
+2024-01-15 18:02:07,035 INFO  - **********************************************
+2024-01-15 18:02:07,035 INFO  - **********************************************
+2024-01-15 18:02:07,035 INFO  - Deleting created repo test case
+2024-01-15 18:02:07,036 INFO  - Request payload -->  {"name":"Hello-World1",
+"description":"Repo created using Rest API"
+}
+2024-01-15 18:02:07,056 INFO  - Response value is _> Hello-World1
+2024-01-15 18:02:07,059 INFO  - Request URI is entered - https://api.github.com/repos/muthu239/Hello-World1
+2024-01-15 18:02:07,864 INFO  - Response status code is -> 204
+2024-01-15 18:02:07,870 INFO  - Response status code is -> 204
+2024-01-15 18:02:07,875 INFO  - Response status code is -> 204
+2024-01-15 18:02:07,878 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-01-15 18:02:07,878 INFO  - **********************************************
+2024-01-15 18:02:07,878 INFO  - **********************************************
+2024-01-15 18:02:07,878 INFO  - X
+2024-01-15 18:02:07,879 INFO  - X
+2024-01-15 18:02:07,879 INFO  - X
+2024-01-15 18:02:07,879 INFO  - X
+2024-01-15 18:02:07,879 INFO  - X
+2024-01-15 18:02:07,891 INFO  - **********************************************
+2024-01-15 18:02:07,891 INFO  - **********************************************
+2024-01-15 18:02:07,892 INFO  - $$$$$$$$$    deleteRepoPOJO     $$$$$$$$$$$$$$
+2024-01-15 18:02:07,892 INFO  - **********************************************
+2024-01-15 18:02:07,892 INFO  - **********************************************
+2024-01-15 18:02:07,892 INFO  - Deleting created repo using Pojo test case
+2024-01-15 18:02:07,899 INFO  - Request URI is entered - https://api.github.com/repos/muthu239/ABC1
+2024-01-15 18:02:08,682 INFO  - Response status code is -> 204
+2024-01-15 18:02:08,685 INFO  - Response status code is -> 204
+2024-01-15 18:02:08,689 INFO  - Response status code is -> 204
+2024-01-15 18:02:08,689 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-01-15 18:02:08,690 INFO  - **********************************************
+2024-01-15 18:02:08,690 INFO  - **********************************************
+2024-01-15 18:02:08,690 INFO  - X
+2024-01-15 18:02:08,690 INFO  - X
+2024-01-15 18:02:08,690 INFO  - X
+2024-01-15 18:02:08,690 INFO  - X
+2024-01-15 18:02:08,690 INFO  - X

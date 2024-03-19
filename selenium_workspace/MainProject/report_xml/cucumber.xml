@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="120.347">
+<testcase classname="Test Sprint retrospection" name="Navigate to sprint retrospection" time="119.822">
+<system-out><![CDATA[Given user is logged in the website and user navigates into project.........passed
+Then user navigates to the sprint retrospection menu........................passed
+Then user adds new sprint retrospection taking data from excel sheet from row "Testcase_001".passed
+Then user verifies the entered data comparing with data from excel sheet from row "Testcase_001".passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

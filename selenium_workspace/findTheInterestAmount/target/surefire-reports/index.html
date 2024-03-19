@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\eclipse_workspace\findTheInterestAmount\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HackathonProject.findTheInterestAmount.PageClass" hash-for-method="calculateCarLoan({interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0})">calculateCarLoan({interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HackathonProject.findTheInterestAmount.PageClass" hash-for-method="homeLoanEmiCalculator({propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=ExcelTableOutput, startDate=Ma...)">homeLoanEmiCalculator({propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=ExcelTableOutput, startDate=Ma...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HackathonProject.findTheInterestAmount.PageClass" hash-for-method="testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlide...)">testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlide...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HackathonProject.findTheInterestAmount.PageClass" hash-for-method="testLoanCalculator({textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndCharge...)">testLoanCalculator({textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndCharge...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HackathonProject.findTheInterestAmount.PageClass" hash-for-method="testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndCharg...)">testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndCharg...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HackathonProject.findTheInterestAmount.PageClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateCarLoan({interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0})">
+                  </a> <!-- calculateCarLoan({interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0}) -->
+                  <span class="method-name">calculateCarLoan</span>
+                  <span class="parameters">({interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeLoanEmiCalculator({propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=ExcelTableOutput, startDate=Ma...)">
+                  </a> <!-- homeLoanEmiCalculator({propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=ExcelTableOutput, startDate=Ma...) -->
+                  <span class="method-name">homeLoanEmiCalculator</span>
+                  <span class="parameters">({propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=ExcelTableOutput, startDate=Mar 2020, fees=0.28, oneTimeexpense=12.0, tenure=22.0, intRate=11.2, downPay=15.0, homeValue=450000.0, maintanence=3000.0, insurance=1.0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlide...)">
+                  </a> <!-- testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlide...) -->
+                  <span class="method-name">testLoanCalculator</span>
+                  <span class="parameters">({textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=8.25, textbox3_locator=pageLoanTenureTextbox_CSS, slider2_locator=pageInterestRateSlider_xpath, textbox1_value=4050000.0, textbox1_locator=pageLoanAmountTextbox_CSS, textbox3_value=7.0, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=emi calculator, slider3_locator=pageLoanTenureSlider_xpath, textbox2_locator=pageInterestRateTextbox_CSS, slider1_locator=pageLoanAmountSlider_xpath})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoanCalculator({textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndCharge...)">
+                  </a> <!-- testLoanCalculator({textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndCharge...) -->
+                  <span class="method-name">testLoanCalculator</span>
+                  <span class="parameters">({textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=70000.0, textbox3_locator=pageInterestRateTextbox_CSS, slider2_locator=pageEmiSlider_xpath, textbox1_value=2500000.0, textbox1_locator=pageLoanAmountTextbox_CSS, textbox3_value=7.5, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=loan tenure calculator, slider3_locator=pageInterestRateSlider_xpath, textbox2_locator=pageEmiTextbox_CSS, slider1_locator=pageLoanAmountSlider_xpath})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndCharg...)">
+                  </a> <!-- testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndCharg...) -->
+                  <span class="method-name">testLoanCalculator</span>
+                  <span class="parameters">({textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=7.5, textbox3_locator=pageLoanTenureTextbox_CSS, slider2_locator=pageInterestRateSlider_xpath, textbox1_value=2796000.0, textbox1_locator=pageEmiTextbox_CSS, textbox3_value=11.0, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=loan amount calculator, slider3_locator=pageLoanTenureSlider_xpath, textbox2_locator=pageInterestRateTextbox_CSS, slider1_locator=pageEmiSlider_xpath})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\eclipse_workspace\findTheInterestAmount\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Regression&quot;/&gt;
+        &lt;include name=&quot;Smoke&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;HackathonProject.findTheInterestAmount.PageClass&quot;/&gt;
+      &lt;class name=&quot;HackathonProject.findTheInterestAmount.BaseUI&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">calculateCarLoan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homeLoanEmiCalculator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoanCalculator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">calculateCarLoan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homeLoanEmiCalculator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoanCalculator</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoanCalculator')
+data.setCell(0, 2, 'HackathonProject.findTheInterestAmount.PageClass')
+data.setCell(0, 3, 53760);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoanCalculator')
+data.setCell(1, 2, 'HackathonProject.findTheInterestAmount.PageClass')
+data.setCell(1, 3, 50676);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoanCalculator')
+data.setCell(2, 2, 'HackathonProject.findTheInterestAmount.PageClass')
+data.setCell(2, 3, 49650);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'homeLoanEmiCalculator')
+data.setCell(3, 2, 'HackathonProject.findTheInterestAmount.PageClass')
+data.setCell(3, 3, 38917);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'calculateCarLoan')
+data.setCell(4, 2, 'HackathonProject.findTheInterestAmount.PageClass')
+data.setCell(4, 3, 29842);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">HackathonProject.findTheInterestAmount.PageClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">calculateCarLoan({interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeLoanEmiCalculator({propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=ExcelTableOutput, startDate=Ma...)</span>
+                <span class="method-start">29963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlide...)</span>
+                <span class="method-start">68952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoanCalculator({textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndCharg...)</span>
+                <span class="method-start">119629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoanCalculator({textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndCharge...)</span>
+                <span class="method-start">169280 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

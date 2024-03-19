@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="91.982" tests="57" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="C:\Users\ABHIJITH REDDY\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ABHIJITH REDDY\eclipse-workspace\InterestAmountForCurrentYear-EMICalculator\InterestAmountForCurrentYear-EMICalculator"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ABHIJITH REDDY\eclipse-workspace\InterestAmountForCurrentYear-EMICalculator\InterestAmountForCurrentYear-EMICalculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABHIJI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\ABHIJITH REDDY\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9300380371945100840.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\ABHIJITH REDDY\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/ABHIJITH REDDY/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/ABHIJITH REDDY/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Java\jdk-11.0.10\bin;C:\Users\ABHIJITH REDDY\AppData\Local\Microsoft\WindowsApps;;C:\Users\ABHIJITH REDDY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ABHIJITH REDDY\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ABHIJITH REDDY"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="ABHIJITH REDDY"/>
+    <property name="java.class.path" value="C:\Users\ABHIJITH REDDY\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Users\ABHIJITH REDDY\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\ABHIJITH REDDY\eclipse-workspace\InterestAmountForCurrentYear-EMICalculator\InterestAmountForCurrentYear-EMICalculator\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="openBrowsertestCase" classname="com.InterestAmount.testcases.carLoanTestCases" time="10.803"/>
+  <testcase name="carEMIFormtestCase" classname="com.InterestAmount.testcases.carLoanTestCases" time="1.838"/>
+  <testcase name="getdatatestcase" classname="com.InterestAmount.testcases.carLoanTestCases" time="1.487"/>
+  <testcase name="closetestcase" classname="com.InterestAmount.testcases.carLoanTestCases" time="0.329"/>
+  <testcase name="endReportestcase" classname="com.InterestAmount.testcases.carLoanTestCases" time="0.623"/>
+  <testcase name="testopenBrowser" classname="com.InterestAmount.testcases.homeLoanTestCases" time="7.567"/>
+  <testcase name="testHomeEmi" classname="com.InterestAmount.testcases.homeLoanTestCases" time="3.924"/>
+  <testcase name="testdataexport" classname="com.InterestAmount.testcases.homeLoanTestCases" time="6.956"/>
+  <testcase name="close" classname="com.InterestAmount.testcases.homeLoanTestCases" time="0.304"/>
+  <testcase name="endReport" classname="com.InterestAmount.testcases.homeLoanTestCases" time="0.227"/>
+  <testcase name="testopenBrowsertestCase" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="6.784"/>
+  <testcase name="testloanemicalcnavigate" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="3.283"/>
+  <testcase name="testfeechargesslider" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.458"/>
+  <testcase name="testfeechargestextbox" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.328"/>
+  <testcase name="testfeeslidercheck" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="1.068"/>
+  <testcase name="testinterestrateslider" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.465"/>
+  <testcase name="testinterestrateslidercheck" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.7"/>
+  <testcase name="testinterestratetextbox" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.405"/>
+  <testcase name="testloanamtslider" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.257"/>
+  <testcase name="testloanamtslidercheck" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.622"/>
+  <testcase name="testloanamttextbox" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.265"/>
+  <testcase name="testloantermslider" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.227"/>
+  <testcase name="testloantermslidercheck" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.626"/>
+  <testcase name="testloantermtextbox" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.334"/>
+  <testcase name="close" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.299"/>
+  <testcase name="endReport" classname="com.InterestAmount.testcases.loanEMIUICheckTestCases" time="0.163"/>
+  <testcase name="testloancalcnavigate" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="4.222"/>
+  <testcase name="testEMIslider" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.383"/>
+  <testcase name="testEMIslidercheck" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.62"/>
+  <testcase name="testEMItextbox" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.271"/>
+  <testcase name="testfeeChargeSlidercheck" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.611"/>
+  <testcase name="testfeechargesslider" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.221"/>
+  <testcase name="testfeechargestextbox" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.197"/>
+  <testcase name="testinterestrateslider" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.198"/>
+  <testcase name="testinterestrateslidercheck" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.544"/>
+  <testcase name="testinterestratetextbox" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.199"/>
+  <testcase name="testloantermslider" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.193"/>
+  <testcase name="testloantermslidercheck" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.607"/>
+  <testcase name="testloantermtextbox" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.316"/>
+  <testcase name="close" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="4.344"/>
+  <testcase name="endReport" classname="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases" time="0.149"/>
+  <testcase name="openBrowsertestCase" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="7.823"/>
+  <testcase name="testloanTenurenavigate" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="4.297"/>
+  <testcase name="testEMItextbox" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.268"/>
+  <testcase name="testemislider" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.355"/>
+  <testcase name="testemislidercheck" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.638"/>
+  <testcase name="testfeechargesslider" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.234"/>
+  <testcase name="testfeechargestextbox" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.188"/>
+  <testcase name="testfeeslidercheck" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.621"/>
+  <testcase name="testinterestRatetextbox" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.329"/>
+  <testcase name="testloanAmountslider" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.256"/>
+  <testcase name="testloanAmountslidercheck" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.674"/>
+  <testcase name="testloanAmounttextbox" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.332"/>
+  <testcase name="testloantermslider" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.232"/>
+  <testcase name="testloantermslidercheck" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.621"/>
+  <testcase name="testclose" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.603"/>
+  <testcase name="testendReport" classname="com.InterestAmount.testcases.loanTenureUICheckTestCases" time="0.148"/>
+</testsuite>

@@ -1,0 +1,6 @@
+com\insurance\test\TravelInsurance_test.class
+com\insurance\utils\DateUtils.class
+com\insurance\utils\ReadExcelData.class
+com\insurance\main\BaseClass.class
+com\insurance\utils\DataProviderTest.class
+com\insurance\utils\ExtentReportManager.class

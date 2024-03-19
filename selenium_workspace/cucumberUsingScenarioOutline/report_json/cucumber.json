@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-03T15:16:28.667Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 90\nCurrent browser version is 121.0.6167.140 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-Q72SAP8P\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x0058C013+2474003]\n\tOrdinal0 [0x005229C1+2042305]\n\tOrdinal0 [0x00432F68+1060712]\n\tOrdinal0 [0x0045188E+1185934]\n\tOrdinal0 [0x0044D600+1168896]\n\tOrdinal0 [0x0044AA83+1157763]\n\tOrdinal0 [0x0047A2A2+1352354]\n\tOrdinal0 [0x00478FAA+1347498]\n\tOrdinal0 [0x004766DB+1337051]\n\tOrdinal0 [0x00453427+1192999]\n\tOrdinal0 [0x004542EE+1196782]\n\tOrdinal0 [0x00454279+1196665]\n\tGetHandleVerifier [0x007196FC+1590332]\n\tGetHandleVerifier [0x007C8614+2306900]\n\tGetHandleVerifier [0x00619E93+543699]\n\tGetHandleVerifier [0x006192CE+540686]\n\tOrdinal0 [0x005286BA+2066106]\n\tOrdinal0 [0x0052D1C8+2085320]\n\tOrdinal0 [0x0052D308+2085640]\n\tOrdinal0 [0x005367F3+2123763]\n\tBaseThreadInitThunk [0x76A2FCC9+25]\n\tRtlGetAppContainerNamedObjectPath [0x76ED7C6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76ED7C3E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat stepdefinitions.ContactformSteps.invokeBrowser(ContactformSteps.java:20)\r\n",
+              "duration": 1930908900,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.invokeBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Add Details to Basic details form",
+        "description": "",
+        "id": "navigate-to-mycontactsform;add-details-to-basic-details-form;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"this.driver\" is null\r\n\tat stepdefinitions.ContactformSteps.quit(ContactformSteps.java:50)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Go to mycontactsform site",
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.GotoSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Add the \"Roronoa Zoro\" and \"muthu99n23@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roronoa Zoro",
+                  "offset": 9
+                },
+                {
+                  "val": "muthu99n23@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.ContactformSteps.EnterCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter the \"Hello Roronoa Zoro.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello Roronoa Zoro.",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.ContactformSteps.AddMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on submit Button",
+            "match": {
+              "location": "stepdefinitions.ContactformSteps.clickonSubmit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to MycontactsForm",
+    "description": "",
+    "id": "navigate-to-mycontactsform",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Application.feature",
+    "tags": []
+  }
+]

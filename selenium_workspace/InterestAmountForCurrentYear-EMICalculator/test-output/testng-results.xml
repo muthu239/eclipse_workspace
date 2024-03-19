@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36694" started-at="2021-05-23T14:07:01 IST" finished-at="2021-05-23T14:07:38 IST">
+    <groups>
+      <group name="Regression Test">
+        <method signature="homeLoanTestCases.testdataexport()[pri:1, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="testdataexport" class="com.InterestAmount.testcases.homeLoanTestCases"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="homeLoanTestCases.close()[pri:2, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="close" class="com.InterestAmount.testcases.homeLoanTestCases"/>
+        <method signature="homeLoanTestCases.endReport()[pri:3, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="endReport" class="com.InterestAmount.testcases.homeLoanTestCases"/>
+        <method signature="homeLoanTestCases.testHomeEmi()[pri:1, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="testHomeEmi" class="com.InterestAmount.testcases.homeLoanTestCases"/>
+        <method signature="homeLoanTestCases.testopenBrowser()[pri:0, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="testopenBrowser" class="com.InterestAmount.testcases.homeLoanTestCases"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Default test" duration-ms="36694" started-at="2021-05-23T14:07:01 IST" finished-at="2021-05-23T14:07:38 IST">
+      <class name="com.InterestAmount.testcases.homeLoanTestCases">
+        <test-method status="PASS" signature="testopenBrowser()[pri:0, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="testopenBrowser" duration-ms="7504" started-at="2021-05-23T14:07:01 IST" finished-at="2021-05-23T14:07:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testopenBrowser -->
+        <test-method status="PASS" signature="testHomeEmi()[pri:1, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="testHomeEmi" duration-ms="24117" started-at="2021-05-23T14:07:08 IST" finished-at="2021-05-23T14:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeEmi -->
+        <test-method status="PASS" signature="testdataexport()[pri:1, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="testdataexport" duration-ms="4470" started-at="2021-05-23T14:07:33 IST" finished-at="2021-05-23T14:07:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdataexport -->
+        <test-method status="PASS" signature="close()[pri:2, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="close" duration-ms="201" started-at="2021-05-23T14:07:37 IST" finished-at="2021-05-23T14:07:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="endReport()[pri:3, instance:com.InterestAmount.testcases.homeLoanTestCases@f4168b8]" name="endReport" duration-ms="360" started-at="2021-05-23T14:07:37 IST" finished-at="2021-05-23T14:07:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.InterestAmount.testcases.homeLoanTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-14T04:03:04.523Z",
+        "line": 14,
+        "name": "Navigate to sprint retrospection",
+        "description": "",
+        "id": "test-sprint-retrospection;navigate-to-sprint-retrospection;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 90431000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is logged in the website and user navigates into project",
+            "match": {
+              "location": "stepdefinitions.MainSpringSteps.user_is_logged_in_the_website_and_user_navigates_into_project()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to the sprint retrospection menu",
+            "match": {
+              "location": "stepdefinitions.MainSpringSteps.user_navigates_to_the_sprint_retrospection_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10901000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user adds new sprint retrospection taking data from excel sheet from row \"Testcase_001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testcase_001\"",
+                  "offset": 73
+                }
+              ],
+              "location": "stepdefinitions.MainSpringSteps.user_adds_new_sprint_retrospection_taking_data_from_excel_sheet_from_row(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16296000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies the entered data comparing with data from excel sheet from row \"Testcase_001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testcase_001\"",
+                  "offset": 77
+                }
+              ],
+              "location": "stepdefinitions.MainSpringSteps.user_verifies_the_entered_data_comparing_with_data_from_excel_sheet_from_row(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1586000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.MainSpringSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Sprint retrospection",
+    "description": "",
+    "id": "test-sprint-retrospection",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Application.feature",
+    "tags": []
+  }
+]

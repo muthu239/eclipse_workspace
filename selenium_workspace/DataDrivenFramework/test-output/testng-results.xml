@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="143149" started-at="2021-05-11T16:22:12 IST" finished-at="2021-05-11T16:24:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="143149" started-at="2021-05-11T16:22:12 IST" finished-at="2021-05-11T16:24:35 IST">
+      <class name="com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest">
+        <test-method status="PASS" signature="doZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@6e2c9341]" name="doZohoLoginTest" duration-ms="31961" started-at="2021-05-11T16:22:13 IST" data-provider="getDatadoZohoLoginTest" finished-at="2021-05-11T16:22:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Test@12345, PageTitle=Zoho Accounts, Comment=Incorrect Username, UserName=testuser}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@6e2c9341]" name="afterTest" is-config="true" duration-ms="2" started-at="2021-05-11T16:22:45 IST" finished-at="2021-05-11T16:22:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="doZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@6e2c9341]" name="doZohoLoginTest" duration-ms="33283" started-at="2021-05-11T16:22:45 IST" data-provider="getDatadoZohoLoginTest" finished-at="2021-05-11T16:23:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=anshulchauhan, PageTitle=Zoho Accounts, Comment=Incorrect Password, UserName=anshulc55@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@6e2c9341]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-11T16:23:18 IST" finished-at="2021-05-11T16:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="doZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@6e2c9341]" name="doZohoLoginTest" duration-ms="76056" started-at="2021-05-11T16:23:18 IST" data-provider="getDatadoZohoLoginTest" finished-at="2021-05-11T16:24:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Test@12345, PageTitle=Zoho Home, Comment=Correct Login Credentials, UserName=anshulc55@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@6e2c9341]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-11T16:24:35 IST" finished-at="2021-05-11T16:24:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest@6e2c9341]" name="endReport" is-config="true" duration-ms="687" started-at="2021-05-11T16:24:35 IST" finished-at="2021-05-11T16:24:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.dataDriven.frmeWork.test.loginTest.ZohoLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

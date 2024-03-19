@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24969" started-at="2021-06-11T18:46:29 IST" finished-at="2021-06-11T18:46:54 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24969" started-at="2021-06-11T18:46:29 IST" finished-at="2021-06-11T18:46:54 IST">
+      <class name="HandleBrowserWindows.MultiWindowHandles.HandleWindows">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:HandleBrowserWindows.MultiWindowHandles.HandleWindows@3c0a50da]" name="testOne" duration-ms="23890" started-at="2021-06-11T18:46:29 IST" finished-at="2021-06-11T18:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HandleBrowserWindows.MultiWindowHandles.HandleWindows@3c0a50da]" name="afterTest" is-config="true" duration-ms="2" started-at="2021-06-11T18:46:53 IST" finished-at="2021-06-11T18:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:HandleBrowserWindows.MultiWindowHandles.HandleWindows@3c0a50da]" name="endReport" is-config="true" duration-ms="957" started-at="2021-06-11T18:46:53 IST" finished-at="2021-06-11T18:46:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- HandleBrowserWindows.MultiWindowHandles.HandleWindows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

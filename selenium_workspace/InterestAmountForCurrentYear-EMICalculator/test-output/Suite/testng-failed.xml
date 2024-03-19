@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.InterestAmount.testcases.carLoanTestCases">
+        <methods>
+          <include name="getdatatestcase"/>
+          <include name="carEMIFormtestCase"/>
+          <include name="closetestcase"/>
+        </methods>
+      </class> <!-- com.InterestAmount.testcases.carLoanTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="homeLoan(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.InterestAmount.testcases.homeLoanTestCases">
+        <methods>
+          <include name="testHomeEmi"/>
+          <include name="testdataexport"/>
+          <include name="testopenBrowser"/>
+        </methods>
+      </class> <!-- com.InterestAmount.testcases.homeLoanTestCases -->
+    </classes>
+  </test> <!-- homeLoan(failed) -->
+  <test thread-count="5" name="EMI(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.InterestAmount.testcases.loanEMIUICheckTestCases">
+        <methods>
+          <include name="testloanamtslider"/>
+          <include name="testloanamttextbox"/>
+          <include name="testopenBrowsertestCase"/>
+          <include name="testloanemicalcnavigate"/>
+          <include name="testinterestrateslider"/>
+          <include name="testloantermslider"/>
+          <include name="testfeechargesslider"/>
+          <include name="testinterestratetextbox"/>
+          <include name="testloanamtslidercheck"/>
+          <include name="testfeeslidercheck"/>
+          <include name="testinterestrateslidercheck"/>
+          <include name="testfeechargestextbox"/>
+          <include name="testloantermslidercheck"/>
+          <include name="testloantermtextbox"/>
+        </methods>
+      </class> <!-- com.InterestAmount.testcases.loanEMIUICheckTestCases -->
+    </classes>
+  </test> <!-- EMI(failed) -->
+  <test thread-count="5" name="homeTest(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases">
+        <methods>
+          <include name="testinterestrateslidercheck"/>
+          <include name="endReport"/>
+          <include name="openBrowsertestCase"/>
+          <include name="testfeechargesslider"/>
+          <include name="testfeechargestextbox"/>
+          <include name="testloantermslidercheck"/>
+          <include name="testloantermtextbox"/>
+          <include name="testinterestrateslider"/>
+          <include name="close"/>
+          <include name="testEMIslider"/>
+          <include name="testfeeChargeSlidercheck"/>
+          <include name="testloancalcnavigate"/>
+          <include name="testEMItextbox"/>
+          <include name="testinterestratetextbox"/>
+          <include name="testEMIslidercheck"/>
+          <include name="testloantermslider"/>
+        </methods>
+      </class> <!-- com.InterestAmount.testcases.loanAmountCalculatorUICheckTestcases -->
+    </classes>
+  </test> <!-- homeTest(failed) -->
+  <test thread-count="5" name="Loan Tenure(failed)">
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.InterestAmount.testcases.loanTenureUICheckTestCases">
+        <methods>
+          <include name="testemislidercheck"/>
+          <include name="testfeeslidercheck"/>
+          <include name="testloanAmountslider"/>
+          <include name="testloantermslidercheck"/>
+          <include name="openBrowsertestCase"/>
+          <include name="testfeechargestextbox"/>
+          <include name="testloanTenurenavigate"/>
+          <include name="testloanAmounttextbox"/>
+          <include name="testemislider"/>
+          <include name="testfeechargesslider"/>
+          <include name="testloantermslider"/>
+          <include name="testEMItextbox"/>
+          <include name="testloanAmountslidercheck"/>
+          <include name="testinterestRatetextbox"/>
+        </methods>
+      </class> <!-- com.InterestAmount.testcases.loanTenureUICheckTestCases -->
+    </classes>
+  </test> <!-- Loan Tenure(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="210201" started-at="2021-05-31T15:59:28 IST" finished-at="2021-05-31T16:02:58 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="PageClass.calculateCarLoan(java.util.Hashtable)[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="calculateCarLoan" class="HackathonProject.findTheInterestAmount.PageClass"/>
+        <method signature="PageClass.homeLoanEmiCalculator(java.util.Hashtable)[pri:1, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="homeLoanEmiCalculator" class="HackathonProject.findTheInterestAmount.PageClass"/>
+        <method signature="PageClass.testLoanCalculator(java.util.Hashtable)[pri:2, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="testLoanCalculator" class="HackathonProject.findTheInterestAmount.PageClass"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="PageClass.calculateCarLoan(java.util.Hashtable)[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="calculateCarLoan" class="HackathonProject.findTheInterestAmount.PageClass"/>
+        <method signature="PageClass.homeLoanEmiCalculator(java.util.Hashtable)[pri:1, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="homeLoanEmiCalculator" class="HackathonProject.findTheInterestAmount.PageClass"/>
+        <method signature="PageClass.testLoanCalculator(java.util.Hashtable)[pri:2, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="testLoanCalculator" class="HackathonProject.findTheInterestAmount.PageClass"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="210201" started-at="2021-05-31T15:59:28 IST" finished-at="2021-05-31T16:02:58 IST">
+      <class name="HackathonProject.findTheInterestAmount.PageClass">
+        <test-method status="PASS" signature="calculateCarLoan(java.util.Hashtable)[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="calculateCarLoan" duration-ms="19149" started-at="2021-05-31T15:59:29 IST" data-provider="calculateCarLoan" finished-at="2021-05-31T15:59:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{interestRate=9.5, loanAmount=1500000.0, loanTenure=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateCarLoan -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="afterTest" is-config="true" duration-ms="3" started-at="2021-05-31T15:59:48 IST" finished-at="2021-05-31T15:59:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="homeLoanEmiCalculator(java.util.Hashtable)[pri:1, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="homeLoanEmiCalculator" duration-ms="38404" started-at="2021-05-31T15:59:48 IST" data-provider="homeLoanCalc" finished-at="2021-05-31T16:00:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{propTax=0.75, worksheetName=Sheet1, homeInsurance=0.08, workbookName=ExcelTableOutput, startDate=Mar 2020, fees=0.28, oneTimeexpense=12.0, tenure=22.0, intRate=11.2, downPay=15.0, homeValue=450000.0, maintanence=3000.0, insurance=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanEmiCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-05-31T16:00:27 IST" finished-at="2021-05-31T16:00:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testLoanCalculator(java.util.Hashtable)[pri:2, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="testLoanCalculator" duration-ms="50756" started-at="2021-05-31T16:00:27 IST" data-provider="differentCalcRun" finished-at="2021-05-31T16:01:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{textbox4_value=12300.0, chooseCalc_locator=emiCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=8.25, textbox3_locator=pageLoanTenureTextbox_CSS, slider2_locator=pageInterestRateSlider_xpath, textbox1_value=4050000.0, textbox1_locator=pageLoanAmountTextbox_CSS, textbox3_value=7.0, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=emi calculator, slider3_locator=pageLoanTenureSlider_xpath, textbox2_locator=pageInterestRateTextbox_CSS, slider1_locator=pageLoanAmountSlider_xpath}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-05-31T16:01:18 IST" finished-at="2021-05-31T16:01:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testLoanCalculator(java.util.Hashtable)[pri:2, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="testLoanCalculator" duration-ms="52085" started-at="2021-05-31T16:01:18 IST" data-provider="differentCalcRun" finished-at="2021-05-31T16:02:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{textbox4_value=12300.0, chooseCalc_locator=loanAmountCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=7.5, textbox3_locator=pageLoanTenureTextbox_CSS, slider2_locator=pageInterestRateSlider_xpath, textbox1_value=2796000.0, textbox1_locator=pageEmiTextbox_CSS, textbox3_value=11.0, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=loan amount calculator, slider3_locator=pageLoanTenureSlider_xpath, textbox2_locator=pageInterestRateTextbox_CSS, slider1_locator=pageEmiSlider_xpath}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-05-31T16:02:10 IST" finished-at="2021-05-31T16:02:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testLoanCalculator(java.util.Hashtable)[pri:2, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="testLoanCalculator" duration-ms="47671" started-at="2021-05-31T16:02:10 IST" data-provider="differentCalcRun" finished-at="2021-05-31T16:02:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{textbox4_value=7500.0, chooseCalc_locator=loanTenureCalcMenu_CSS, slider4_locator=pageFeesAndChargesSlider_xpath, textbox2_value=70000.0, textbox3_locator=pageInterestRateTextbox_CSS, slider2_locator=pageEmiSlider_xpath, textbox1_value=2500000.0, textbox1_locator=pageLoanAmountTextbox_CSS, textbox3_value=7.5, textbox4_locator=pageFeesAndChargesTextbox_CSS, calculator_used=loan tenure calculator, slider3_locator=pageInterestRateSlider_xpath, textbox2_locator=pageEmiTextbox_CSS, slider1_locator=pageLoanAmountSlider_xpath}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanCalculator -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-31T16:02:57 IST" finished-at="2021-05-31T16:02:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:HackathonProject.findTheInterestAmount.PageClass@77a57272]" name="endReport" is-config="true" duration-ms="891" started-at="2021-05-31T16:02:57 IST" finished-at="2021-05-31T16:02:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- HackathonProject.findTheInterestAmount.PageClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.643">
+<testcase classname="Sign Up" name="Sign Up Scenario" time="20.25">
+<system-out><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Title is PHP Travels..................................passed
+Then user clicks on MY ACCOUNT..............................................passed
+And user clicks on Sign Up option...........................................passed
+When User navigate to Sign Up page..........................................passed
+Then user enters personal data and the entered values are validated.........passed
+Then click on Sign Up button................................................passed
+Then Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,656 @@
+2024-02-06 10:39:19,907 INFO  - **********************************************
+2024-02-06 10:39:19,908 INFO  - **********************************************
+2024-02-06 10:39:19,909 INFO  - $$$$$$$$$    verify create Repo API     $$$$$$$$$$$$$$
+2024-02-06 10:39:19,909 INFO  - **********************************************
+2024-02-06 10:39:19,909 INFO  - **********************************************
+2024-02-06 10:39:20,471 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:39:20,471 INFO  - Resource path is : /user/repos
+2024-02-06 10:39:20,472 INFO  - Request payload is : {
+  "name" : "API-TEST-REPO",
+  "description" : "API repo created via BDD Test"
+}
+2024-02-06 10:39:24,708 INFO  - Response of request : {"id":753427801,"node_id":"R_kgDOLOhlWQ","name":"API-TEST-REPO","full_name":"muthu239/API-TEST-REPO","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/API-TEST-REPO","description":"API repo created via BDD Test","fork":false,"url":"https://api.github.com/repos/muthu239/API-TEST-REPO","forks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/forks","keys_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/teams","hooks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/hooks","issue_events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/events","assignees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/tags","blobs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/languages","stargazers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/stargazers","contributors_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contributors","subscribers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscribers","subscription_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscription","commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/merges","archive_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/downloads","issues_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/deployments","created_at":"2024-02-06T05:09:26Z","updated_at":"2024-02-06T05:09:26Z","pushed_at":"2024-02-06T05:09:26Z","git_url":"git://github.com/muthu239/API-TEST-REPO.git","ssh_url":"git@github.com:muthu239/API-TEST-REPO.git","clone_url":"https://github.com/muthu239/API-TEST-REPO.git","svn_url":"https://github.com/muthu239/API-TEST-REPO","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:39:24,719 INFO  - Status code of req - 201
+2024-02-06 10:39:25,950 INFO  - Expected repo name : API-TEST-REPO
+2024-02-06 10:39:25,950 INFO  - Actual repo name : API-TEST-REPO
+2024-02-06 10:39:26,011 INFO  - Expected repo name : API repo created via BDD Test
+2024-02-06 10:39:26,012 INFO  - Actual repo name : API repo created via BDD Test
+2024-02-06 10:39:26,012 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:26,012 INFO  - **********************************************
+2024-02-06 10:39:26,012 INFO  - **********************************************
+2024-02-06 10:39:26,012 INFO  - X
+2024-02-06 10:39:26,013 INFO  - X
+2024-02-06 10:39:26,013 INFO  - X
+2024-02-06 10:39:26,013 INFO  - X
+2024-02-06 10:39:26,013 INFO  - X
+2024-02-06 10:39:26,038 INFO  - **********************************************
+2024-02-06 10:39:26,038 INFO  - **********************************************
+2024-02-06 10:39:26,039 INFO  - $$$$$$$$$    Verify Delete repo API     $$$$$$$$$$$$$$
+2024-02-06 10:39:26,039 INFO  - **********************************************
+2024-02-06 10:39:26,039 INFO  - **********************************************
+2024-02-06 10:39:26,043 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/API-TEST-REPO
+2024-02-06 10:39:26,844 INFO  - Delete req status code is : 204
+2024-02-06 10:39:26,845 INFO  - Status code of req - 204
+2024-02-06 10:39:26,845 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:26,846 INFO  - **********************************************
+2024-02-06 10:39:26,846 INFO  - **********************************************
+2024-02-06 10:39:26,846 INFO  - X
+2024-02-06 10:39:26,846 INFO  - X
+2024-02-06 10:39:26,846 INFO  - X
+2024-02-06 10:39:26,847 INFO  - X
+2024-02-06 10:39:26,847 INFO  - X
+2024-02-06 10:39:26,873 INFO  - **********************************************
+2024-02-06 10:39:26,874 INFO  - **********************************************
+2024-02-06 10:39:26,874 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:39:26,875 INFO  - **********************************************
+2024-02-06 10:39:26,875 INFO  - **********************************************
+2024-02-06 10:39:26,877 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:39:26,878 INFO  - Resource path is : /user/repos
+2024-02-06 10:39:26,878 INFO  - Request payload is : {
+  "name" : "repo1",
+  "description" : "This is data driven test repo1"
+}
+2024-02-06 10:39:28,076 INFO  - Response of request : {"id":753427821,"node_id":"R_kgDOLOhlbQ","name":"repo1","full_name":"muthu239/repo1","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo1","description":"This is data driven test repo1","fork":false,"url":"https://api.github.com/repos/muthu239/repo1","forks_url":"https://api.github.com/repos/muthu239/repo1/forks","keys_url":"https://api.github.com/repos/muthu239/repo1/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo1/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo1/teams","hooks_url":"https://api.github.com/repos/muthu239/repo1/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo1/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo1/events","assignees_url":"https://api.github.com/repos/muthu239/repo1/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo1/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo1/tags","blobs_url":"https://api.github.com/repos/muthu239/repo1/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo1/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo1/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo1/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo1/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo1/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo1/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo1/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo1/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo1/subscription","commits_url":"https://api.github.com/repos/muthu239/repo1/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo1/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo1/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo1/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo1/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo1/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo1/merges","archive_url":"https://api.github.com/repos/muthu239/repo1/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo1/downloads","issues_url":"https://api.github.com/repos/muthu239/repo1/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo1/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo1/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo1/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo1/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo1/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo1/deployments","created_at":"2024-02-06T05:09:29Z","updated_at":"2024-02-06T05:09:29Z","pushed_at":"2024-02-06T05:09:29Z","git_url":"git://github.com/muthu239/repo1.git","ssh_url":"git@github.com:muthu239/repo1.git","clone_url":"https://github.com/muthu239/repo1.git","svn_url":"https://github.com/muthu239/repo1","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:39:28,078 INFO  - Status code of req - 201
+2024-02-06 10:39:28,134 INFO  - Expected repo name : repo1
+2024-02-06 10:39:28,135 INFO  - Actual repo name : repo1
+2024-02-06 10:39:28,180 INFO  - Expected repo name : This is data driven test repo1
+2024-02-06 10:39:28,181 INFO  - Actual repo name : This is data driven test repo1
+2024-02-06 10:39:28,181 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:28,183 INFO  - **********************************************
+2024-02-06 10:39:28,185 INFO  - **********************************************
+2024-02-06 10:39:28,186 INFO  - X
+2024-02-06 10:39:28,187 INFO  - X
+2024-02-06 10:39:28,188 INFO  - X
+2024-02-06 10:39:28,188 INFO  - X
+2024-02-06 10:39:28,188 INFO  - X
+2024-02-06 10:39:28,203 INFO  - **********************************************
+2024-02-06 10:39:28,204 INFO  - **********************************************
+2024-02-06 10:39:28,204 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:39:28,204 INFO  - **********************************************
+2024-02-06 10:39:28,204 INFO  - **********************************************
+2024-02-06 10:39:28,208 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:39:28,208 INFO  - Resource path is : /user/repos
+2024-02-06 10:39:28,208 INFO  - Request payload is : {
+  "name" : "repo2",
+  "description" : "This is data driven test repo2"
+}
+2024-02-06 10:39:29,303 INFO  - Response of request : {"id":753427827,"node_id":"R_kgDOLOhlcw","name":"repo2","full_name":"muthu239/repo2","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo2","description":"This is data driven test repo2","fork":false,"url":"https://api.github.com/repos/muthu239/repo2","forks_url":"https://api.github.com/repos/muthu239/repo2/forks","keys_url":"https://api.github.com/repos/muthu239/repo2/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo2/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo2/teams","hooks_url":"https://api.github.com/repos/muthu239/repo2/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo2/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo2/events","assignees_url":"https://api.github.com/repos/muthu239/repo2/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo2/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo2/tags","blobs_url":"https://api.github.com/repos/muthu239/repo2/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo2/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo2/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo2/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo2/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo2/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo2/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo2/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo2/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo2/subscription","commits_url":"https://api.github.com/repos/muthu239/repo2/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo2/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo2/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo2/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo2/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo2/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo2/merges","archive_url":"https://api.github.com/repos/muthu239/repo2/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo2/downloads","issues_url":"https://api.github.com/repos/muthu239/repo2/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo2/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo2/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo2/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo2/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo2/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo2/deployments","created_at":"2024-02-06T05:09:30Z","updated_at":"2024-02-06T05:09:31Z","pushed_at":"2024-02-06T05:09:31Z","git_url":"git://github.com/muthu239/repo2.git","ssh_url":"git@github.com:muthu239/repo2.git","clone_url":"https://github.com/muthu239/repo2.git","svn_url":"https://github.com/muthu239/repo2","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:39:29,304 INFO  - Status code of req - 201
+2024-02-06 10:39:29,361 INFO  - Expected repo name : repo2
+2024-02-06 10:39:29,361 INFO  - Actual repo name : repo2
+2024-02-06 10:39:29,404 INFO  - Expected repo name : This is data driven test repo2
+2024-02-06 10:39:29,405 INFO  - Actual repo name : This is data driven test repo2
+2024-02-06 10:39:29,405 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:29,405 INFO  - **********************************************
+2024-02-06 10:39:29,406 INFO  - **********************************************
+2024-02-06 10:39:29,406 INFO  - X
+2024-02-06 10:39:29,406 INFO  - X
+2024-02-06 10:39:29,406 INFO  - X
+2024-02-06 10:39:29,406 INFO  - X
+2024-02-06 10:39:29,406 INFO  - X
+2024-02-06 10:39:29,423 INFO  - **********************************************
+2024-02-06 10:39:29,424 INFO  - **********************************************
+2024-02-06 10:39:29,424 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:39:29,424 INFO  - **********************************************
+2024-02-06 10:39:29,425 INFO  - **********************************************
+2024-02-06 10:39:29,428 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:39:29,428 INFO  - Resource path is : /user/repos
+2024-02-06 10:39:29,428 INFO  - Request payload is : {
+  "name" : "repo3",
+  "description" : "This is data driven test repo3"
+}
+2024-02-06 10:39:30,744 INFO  - Response of request : {"id":753427836,"node_id":"R_kgDOLOhlfA","name":"repo3","full_name":"muthu239/repo3","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo3","description":"This is data driven test repo3","fork":false,"url":"https://api.github.com/repos/muthu239/repo3","forks_url":"https://api.github.com/repos/muthu239/repo3/forks","keys_url":"https://api.github.com/repos/muthu239/repo3/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo3/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo3/teams","hooks_url":"https://api.github.com/repos/muthu239/repo3/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo3/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo3/events","assignees_url":"https://api.github.com/repos/muthu239/repo3/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo3/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo3/tags","blobs_url":"https://api.github.com/repos/muthu239/repo3/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo3/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo3/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo3/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo3/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo3/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo3/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo3/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo3/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo3/subscription","commits_url":"https://api.github.com/repos/muthu239/repo3/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo3/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo3/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo3/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo3/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo3/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo3/merges","archive_url":"https://api.github.com/repos/muthu239/repo3/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo3/downloads","issues_url":"https://api.github.com/repos/muthu239/repo3/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo3/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo3/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo3/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo3/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo3/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo3/deployments","created_at":"2024-02-06T05:09:32Z","updated_at":"2024-02-06T05:09:32Z","pushed_at":"2024-02-06T05:09:32Z","git_url":"git://github.com/muthu239/repo3.git","ssh_url":"git@github.com:muthu239/repo3.git","clone_url":"https://github.com/muthu239/repo3.git","svn_url":"https://github.com/muthu239/repo3","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:39:30,745 INFO  - Status code of req - 201
+2024-02-06 10:39:30,901 INFO  - Expected repo name : repo3
+2024-02-06 10:39:30,902 INFO  - Actual repo name : repo3
+2024-02-06 10:39:30,940 INFO  - Expected repo name : This is data driven test repo3
+2024-02-06 10:39:30,940 INFO  - Actual repo name : This is data driven test repo3
+2024-02-06 10:39:30,941 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:30,941 INFO  - **********************************************
+2024-02-06 10:39:30,941 INFO  - **********************************************
+2024-02-06 10:39:30,941 INFO  - X
+2024-02-06 10:39:30,941 INFO  - X
+2024-02-06 10:39:30,941 INFO  - X
+2024-02-06 10:39:30,941 INFO  - X
+2024-02-06 10:39:30,941 INFO  - X
+2024-02-06 10:39:30,956 INFO  - **********************************************
+2024-02-06 10:39:30,957 INFO  - **********************************************
+2024-02-06 10:39:30,957 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:39:30,957 INFO  - **********************************************
+2024-02-06 10:39:30,957 INFO  - **********************************************
+2024-02-06 10:39:30,960 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo1
+2024-02-06 10:39:31,759 INFO  - Delete req status code is : 204
+2024-02-06 10:39:31,759 INFO  - Status code of req - 204
+2024-02-06 10:39:31,760 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:31,760 INFO  - **********************************************
+2024-02-06 10:39:31,760 INFO  - **********************************************
+2024-02-06 10:39:31,760 INFO  - X
+2024-02-06 10:39:31,760 INFO  - X
+2024-02-06 10:39:31,760 INFO  - X
+2024-02-06 10:39:31,760 INFO  - X
+2024-02-06 10:39:31,761 INFO  - X
+2024-02-06 10:39:31,772 INFO  - **********************************************
+2024-02-06 10:39:31,772 INFO  - **********************************************
+2024-02-06 10:39:31,773 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:39:31,773 INFO  - **********************************************
+2024-02-06 10:39:31,773 INFO  - **********************************************
+2024-02-06 10:39:31,776 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo2
+2024-02-06 10:39:32,680 INFO  - Delete req status code is : 204
+2024-02-06 10:39:32,681 INFO  - Status code of req - 204
+2024-02-06 10:39:32,681 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:32,681 INFO  - **********************************************
+2024-02-06 10:39:32,681 INFO  - **********************************************
+2024-02-06 10:39:32,681 INFO  - X
+2024-02-06 10:39:32,681 INFO  - X
+2024-02-06 10:39:32,682 INFO  - X
+2024-02-06 10:39:32,682 INFO  - X
+2024-02-06 10:39:32,682 INFO  - X
+2024-02-06 10:39:32,698 INFO  - **********************************************
+2024-02-06 10:39:32,698 INFO  - **********************************************
+2024-02-06 10:39:32,698 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:39:32,698 INFO  - **********************************************
+2024-02-06 10:39:32,698 INFO  - **********************************************
+2024-02-06 10:39:32,701 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo3
+2024-02-06 10:39:33,501 INFO  - Delete req status code is : 204
+2024-02-06 10:39:33,502 INFO  - Status code of req - 204
+2024-02-06 10:39:33,502 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:39:33,502 INFO  - **********************************************
+2024-02-06 10:39:33,502 INFO  - **********************************************
+2024-02-06 10:39:33,502 INFO  - X
+2024-02-06 10:39:33,502 INFO  - X
+2024-02-06 10:39:33,502 INFO  - X
+2024-02-06 10:39:33,503 INFO  - X
+2024-02-06 10:39:33,503 INFO  - X
+2024-02-06 10:46:43,040 INFO  - **********************************************
+2024-02-06 10:46:43,041 INFO  - **********************************************
+2024-02-06 10:46:43,041 INFO  - $$$$$$$$$    verify create Repo API     $$$$$$$$$$$$$$
+2024-02-06 10:46:43,041 INFO  - **********************************************
+2024-02-06 10:46:43,041 INFO  - **********************************************
+2024-02-06 10:46:43,498 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:46:43,498 INFO  - Resource path is : /user/repos
+2024-02-06 10:46:43,498 INFO  - Request payload is : {
+  "name" : "API-TEST-REPO",
+  "description" : "API repo created via BDD Test"
+}
+2024-02-06 10:46:48,012 INFO  - Response of request : {"id":753429848,"node_id":"R_kgDOLOhtWA","name":"API-TEST-REPO","full_name":"muthu239/API-TEST-REPO","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/API-TEST-REPO","description":"API repo created via BDD Test","fork":false,"url":"https://api.github.com/repos/muthu239/API-TEST-REPO","forks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/forks","keys_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/teams","hooks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/hooks","issue_events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/events","assignees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/tags","blobs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/languages","stargazers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/stargazers","contributors_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contributors","subscribers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscribers","subscription_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscription","commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/merges","archive_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/downloads","issues_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/deployments","created_at":"2024-02-06T05:16:49Z","updated_at":"2024-02-06T05:16:49Z","pushed_at":"2024-02-06T05:16:49Z","git_url":"git://github.com/muthu239/API-TEST-REPO.git","ssh_url":"git@github.com:muthu239/API-TEST-REPO.git","clone_url":"https://github.com/muthu239/API-TEST-REPO.git","svn_url":"https://github.com/muthu239/API-TEST-REPO","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:46:48,188 INFO  - Status code of req - 201
+2024-02-06 10:46:49,798 INFO  - Expected repo name : API-TEST-REPO
+2024-02-06 10:46:49,798 INFO  - Actual repo name : API-TEST-REPO
+2024-02-06 10:46:49,847 INFO  - Expected repo name : API repo created via BDD Test
+2024-02-06 10:46:49,847 INFO  - Actual repo name : API repo created via BDD Test
+2024-02-06 10:46:49,848 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:49,848 INFO  - **********************************************
+2024-02-06 10:46:49,848 INFO  - **********************************************
+2024-02-06 10:46:49,848 INFO  - X
+2024-02-06 10:46:49,848 INFO  - X
+2024-02-06 10:46:49,849 INFO  - X
+2024-02-06 10:46:49,849 INFO  - X
+2024-02-06 10:46:49,849 INFO  - X
+2024-02-06 10:46:49,881 INFO  - **********************************************
+2024-02-06 10:46:49,882 INFO  - **********************************************
+2024-02-06 10:46:49,882 INFO  - $$$$$$$$$    Verify Delete repo API     $$$$$$$$$$$$$$
+2024-02-06 10:46:49,882 INFO  - **********************************************
+2024-02-06 10:46:49,883 INFO  - **********************************************
+2024-02-06 10:46:49,886 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/API-TEST-REPO
+2024-02-06 10:46:50,662 INFO  - Delete req status code is : 204
+2024-02-06 10:46:50,663 INFO  - Status code of req - 204
+2024-02-06 10:46:50,664 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:50,664 INFO  - **********************************************
+2024-02-06 10:46:50,664 INFO  - **********************************************
+2024-02-06 10:46:50,665 INFO  - X
+2024-02-06 10:46:50,665 INFO  - X
+2024-02-06 10:46:50,665 INFO  - X
+2024-02-06 10:46:50,665 INFO  - X
+2024-02-06 10:46:50,666 INFO  - X
+2024-02-06 10:46:50,681 INFO  - **********************************************
+2024-02-06 10:46:50,682 INFO  - **********************************************
+2024-02-06 10:46:50,682 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:46:50,682 INFO  - **********************************************
+2024-02-06 10:46:50,683 INFO  - **********************************************
+2024-02-06 10:46:50,688 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:46:50,689 INFO  - Resource path is : /user/repos
+2024-02-06 10:46:50,689 INFO  - Request payload is : {
+  "name" : "repo1",
+  "description" : "This is data driven test repo1"
+}
+2024-02-06 10:46:51,893 INFO  - Response of request : {"id":753429862,"node_id":"R_kgDOLOhtZg","name":"repo1","full_name":"muthu239/repo1","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo1","description":"This is data driven test repo1","fork":false,"url":"https://api.github.com/repos/muthu239/repo1","forks_url":"https://api.github.com/repos/muthu239/repo1/forks","keys_url":"https://api.github.com/repos/muthu239/repo1/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo1/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo1/teams","hooks_url":"https://api.github.com/repos/muthu239/repo1/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo1/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo1/events","assignees_url":"https://api.github.com/repos/muthu239/repo1/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo1/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo1/tags","blobs_url":"https://api.github.com/repos/muthu239/repo1/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo1/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo1/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo1/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo1/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo1/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo1/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo1/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo1/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo1/subscription","commits_url":"https://api.github.com/repos/muthu239/repo1/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo1/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo1/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo1/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo1/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo1/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo1/merges","archive_url":"https://api.github.com/repos/muthu239/repo1/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo1/downloads","issues_url":"https://api.github.com/repos/muthu239/repo1/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo1/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo1/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo1/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo1/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo1/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo1/deployments","created_at":"2024-02-06T05:16:53Z","updated_at":"2024-02-06T05:16:53Z","pushed_at":"2024-02-06T05:16:53Z","git_url":"git://github.com/muthu239/repo1.git","ssh_url":"git@github.com:muthu239/repo1.git","clone_url":"https://github.com/muthu239/repo1.git","svn_url":"https://github.com/muthu239/repo1","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:46:51,898 INFO  - Status code of req - 201
+2024-02-06 10:46:51,942 INFO  - Expected repo name : repo1
+2024-02-06 10:46:51,942 INFO  - Actual repo name : repo1
+2024-02-06 10:46:51,971 INFO  - Expected repo name : This is data driven test repo1
+2024-02-06 10:46:51,971 INFO  - Actual repo name : This is data driven test repo1
+2024-02-06 10:46:51,972 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:51,972 INFO  - **********************************************
+2024-02-06 10:46:51,972 INFO  - **********************************************
+2024-02-06 10:46:51,972 INFO  - X
+2024-02-06 10:46:51,972 INFO  - X
+2024-02-06 10:46:51,972 INFO  - X
+2024-02-06 10:46:51,972 INFO  - X
+2024-02-06 10:46:51,973 INFO  - X
+2024-02-06 10:46:51,988 INFO  - **********************************************
+2024-02-06 10:46:51,989 INFO  - **********************************************
+2024-02-06 10:46:51,989 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:46:51,989 INFO  - **********************************************
+2024-02-06 10:46:51,990 INFO  - **********************************************
+2024-02-06 10:46:51,992 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:46:51,993 INFO  - Resource path is : /user/repos
+2024-02-06 10:46:51,993 INFO  - Request payload is : {
+  "name" : "repo2",
+  "description" : "This is data driven test repo2"
+}
+2024-02-06 10:46:53,120 INFO  - Response of request : {"id":753429868,"node_id":"R_kgDOLOhtbA","name":"repo2","full_name":"muthu239/repo2","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo2","description":"This is data driven test repo2","fork":false,"url":"https://api.github.com/repos/muthu239/repo2","forks_url":"https://api.github.com/repos/muthu239/repo2/forks","keys_url":"https://api.github.com/repos/muthu239/repo2/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo2/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo2/teams","hooks_url":"https://api.github.com/repos/muthu239/repo2/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo2/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo2/events","assignees_url":"https://api.github.com/repos/muthu239/repo2/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo2/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo2/tags","blobs_url":"https://api.github.com/repos/muthu239/repo2/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo2/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo2/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo2/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo2/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo2/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo2/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo2/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo2/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo2/subscription","commits_url":"https://api.github.com/repos/muthu239/repo2/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo2/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo2/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo2/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo2/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo2/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo2/merges","archive_url":"https://api.github.com/repos/muthu239/repo2/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo2/downloads","issues_url":"https://api.github.com/repos/muthu239/repo2/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo2/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo2/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo2/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo2/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo2/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo2/deployments","created_at":"2024-02-06T05:16:54Z","updated_at":"2024-02-06T05:16:54Z","pushed_at":"2024-02-06T05:16:54Z","git_url":"git://github.com/muthu239/repo2.git","ssh_url":"git@github.com:muthu239/repo2.git","clone_url":"https://github.com/muthu239/repo2.git","svn_url":"https://github.com/muthu239/repo2","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:46:53,122 INFO  - Status code of req - 201
+2024-02-06 10:46:53,168 INFO  - Expected repo name : repo2
+2024-02-06 10:46:53,168 INFO  - Actual repo name : repo2
+2024-02-06 10:46:53,203 INFO  - Expected repo name : This is data driven test repo2
+2024-02-06 10:46:53,203 INFO  - Actual repo name : This is data driven test repo2
+2024-02-06 10:46:53,203 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:53,204 INFO  - **********************************************
+2024-02-06 10:46:53,204 INFO  - **********************************************
+2024-02-06 10:46:53,204 INFO  - X
+2024-02-06 10:46:53,204 INFO  - X
+2024-02-06 10:46:53,204 INFO  - X
+2024-02-06 10:46:53,204 INFO  - X
+2024-02-06 10:46:53,204 INFO  - X
+2024-02-06 10:46:53,220 INFO  - **********************************************
+2024-02-06 10:46:53,221 INFO  - **********************************************
+2024-02-06 10:46:53,222 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:46:53,222 INFO  - **********************************************
+2024-02-06 10:46:53,222 INFO  - **********************************************
+2024-02-06 10:46:53,226 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:46:53,226 INFO  - Resource path is : /user/repos
+2024-02-06 10:46:53,226 INFO  - Request payload is : {
+  "name" : "repo3",
+  "description" : "This is data driven test repo3"
+}
+2024-02-06 10:46:54,357 INFO  - Response of request : {"id":753429872,"node_id":"R_kgDOLOhtcA","name":"repo3","full_name":"muthu239/repo3","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo3","description":"This is data driven test repo3","fork":false,"url":"https://api.github.com/repos/muthu239/repo3","forks_url":"https://api.github.com/repos/muthu239/repo3/forks","keys_url":"https://api.github.com/repos/muthu239/repo3/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo3/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo3/teams","hooks_url":"https://api.github.com/repos/muthu239/repo3/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo3/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo3/events","assignees_url":"https://api.github.com/repos/muthu239/repo3/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo3/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo3/tags","blobs_url":"https://api.github.com/repos/muthu239/repo3/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo3/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo3/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo3/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo3/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo3/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo3/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo3/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo3/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo3/subscription","commits_url":"https://api.github.com/repos/muthu239/repo3/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo3/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo3/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo3/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo3/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo3/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo3/merges","archive_url":"https://api.github.com/repos/muthu239/repo3/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo3/downloads","issues_url":"https://api.github.com/repos/muthu239/repo3/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo3/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo3/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo3/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo3/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo3/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo3/deployments","created_at":"2024-02-06T05:16:55Z","updated_at":"2024-02-06T05:16:56Z","pushed_at":"2024-02-06T05:16:56Z","git_url":"git://github.com/muthu239/repo3.git","ssh_url":"git@github.com:muthu239/repo3.git","clone_url":"https://github.com/muthu239/repo3.git","svn_url":"https://github.com/muthu239/repo3","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:46:54,358 INFO  - Status code of req - 201
+2024-02-06 10:46:54,394 INFO  - Expected repo name : repo3
+2024-02-06 10:46:54,394 INFO  - Actual repo name : repo3
+2024-02-06 10:46:54,429 INFO  - Expected repo name : This is data driven test repo3
+2024-02-06 10:46:54,430 INFO  - Actual repo name : This is data driven test repo3
+2024-02-06 10:46:54,430 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:54,430 INFO  - **********************************************
+2024-02-06 10:46:54,431 INFO  - **********************************************
+2024-02-06 10:46:54,431 INFO  - X
+2024-02-06 10:46:54,431 INFO  - X
+2024-02-06 10:46:54,431 INFO  - X
+2024-02-06 10:46:54,431 INFO  - X
+2024-02-06 10:46:54,431 INFO  - X
+2024-02-06 10:46:54,446 INFO  - **********************************************
+2024-02-06 10:46:54,446 INFO  - **********************************************
+2024-02-06 10:46:54,447 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:46:54,447 INFO  - **********************************************
+2024-02-06 10:46:54,447 INFO  - **********************************************
+2024-02-06 10:46:54,449 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo1
+2024-02-06 10:46:55,166 INFO  - Delete req status code is : 204
+2024-02-06 10:46:55,167 INFO  - Status code of req - 204
+2024-02-06 10:46:55,167 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:55,167 INFO  - **********************************************
+2024-02-06 10:46:55,167 INFO  - **********************************************
+2024-02-06 10:46:55,167 INFO  - X
+2024-02-06 10:46:55,168 INFO  - X
+2024-02-06 10:46:55,168 INFO  - X
+2024-02-06 10:46:55,168 INFO  - X
+2024-02-06 10:46:55,168 INFO  - X
+2024-02-06 10:46:55,179 INFO  - **********************************************
+2024-02-06 10:46:55,180 INFO  - **********************************************
+2024-02-06 10:46:55,180 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:46:55,180 INFO  - **********************************************
+2024-02-06 10:46:55,181 INFO  - **********************************************
+2024-02-06 10:46:55,185 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo2
+2024-02-06 10:46:55,882 INFO  - Delete req status code is : 204
+2024-02-06 10:46:55,883 INFO  - Status code of req - 204
+2024-02-06 10:46:55,883 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:55,883 INFO  - **********************************************
+2024-02-06 10:46:55,884 INFO  - **********************************************
+2024-02-06 10:46:55,884 INFO  - X
+2024-02-06 10:46:55,884 INFO  - X
+2024-02-06 10:46:55,884 INFO  - X
+2024-02-06 10:46:55,884 INFO  - X
+2024-02-06 10:46:55,884 INFO  - X
+2024-02-06 10:46:55,898 INFO  - **********************************************
+2024-02-06 10:46:55,899 INFO  - **********************************************
+2024-02-06 10:46:55,899 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:46:55,899 INFO  - **********************************************
+2024-02-06 10:46:55,899 INFO  - **********************************************
+2024-02-06 10:46:55,902 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo3
+2024-02-06 10:46:56,702 INFO  - Delete req status code is : 204
+2024-02-06 10:46:56,703 INFO  - Status code of req - 204
+2024-02-06 10:46:56,703 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:46:56,703 INFO  - **********************************************
+2024-02-06 10:46:56,703 INFO  - **********************************************
+2024-02-06 10:46:56,703 INFO  - X
+2024-02-06 10:46:56,703 INFO  - X
+2024-02-06 10:46:56,704 INFO  - X
+2024-02-06 10:46:56,704 INFO  - X
+2024-02-06 10:46:56,704 INFO  - X
+2024-02-06 10:57:33,795 INFO  - **********************************************
+2024-02-06 10:57:33,836 INFO  - **********************************************
+2024-02-06 10:57:33,836 INFO  - $$$$$$$$$    verify create Repo API     $$$$$$$$$$$$$$
+2024-02-06 10:57:33,837 INFO  - **********************************************
+2024-02-06 10:57:33,837 INFO  - **********************************************
+2024-02-06 10:57:34,322 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:57:34,322 INFO  - Resource path is : /user/repos
+2024-02-06 10:57:34,322 INFO  - Request payload is : {
+  "name" : "API-TEST-REPO",
+  "description" : "API repo created via BDD Test"
+}
+2024-02-06 10:57:38,571 INFO  - Response of request : {"id":753432802,"node_id":"R_kgDOLOh44g","name":"API-TEST-REPO","full_name":"muthu239/API-TEST-REPO","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/API-TEST-REPO","description":"API repo created via BDD Test","fork":false,"url":"https://api.github.com/repos/muthu239/API-TEST-REPO","forks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/forks","keys_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/teams","hooks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/hooks","issue_events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/events","assignees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/tags","blobs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/languages","stargazers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/stargazers","contributors_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contributors","subscribers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscribers","subscription_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscription","commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/merges","archive_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/downloads","issues_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/deployments","created_at":"2024-02-06T05:27:39Z","updated_at":"2024-02-06T05:27:40Z","pushed_at":"2024-02-06T05:27:40Z","git_url":"git://github.com/muthu239/API-TEST-REPO.git","ssh_url":"git@github.com:muthu239/API-TEST-REPO.git","clone_url":"https://github.com/muthu239/API-TEST-REPO.git","svn_url":"https://github.com/muthu239/API-TEST-REPO","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:57:38,585 INFO  - Status code of req - 201
+2024-02-06 10:57:39,900 INFO  - Expected repo name : API-TEST-REPO
+2024-02-06 10:57:39,900 INFO  - Actual repo name : API-TEST-REPO
+2024-02-06 10:57:39,954 INFO  - Expected repo name : API repo created via BDD Test
+2024-02-06 10:57:39,955 INFO  - Actual repo name : API repo created via BDD Test
+2024-02-06 10:57:39,955 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:39,955 INFO  - **********************************************
+2024-02-06 10:57:39,955 INFO  - **********************************************
+2024-02-06 10:57:39,956 INFO  - X
+2024-02-06 10:57:39,956 INFO  - X
+2024-02-06 10:57:39,956 INFO  - X
+2024-02-06 10:57:39,956 INFO  - X
+2024-02-06 10:57:39,956 INFO  - X
+2024-02-06 10:57:39,984 INFO  - **********************************************
+2024-02-06 10:57:39,984 INFO  - **********************************************
+2024-02-06 10:57:39,984 INFO  - $$$$$$$$$    Verify Delete repo API     $$$$$$$$$$$$$$
+2024-02-06 10:57:39,984 INFO  - **********************************************
+2024-02-06 10:57:39,985 INFO  - **********************************************
+2024-02-06 10:57:39,988 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/API-TEST-REPO
+2024-02-06 10:57:40,823 INFO  - Delete req status code is : 204
+2024-02-06 10:57:40,824 INFO  - Status code of req - 204
+2024-02-06 10:57:40,824 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:40,824 INFO  - **********************************************
+2024-02-06 10:57:40,825 INFO  - **********************************************
+2024-02-06 10:57:40,825 INFO  - X
+2024-02-06 10:57:40,825 INFO  - X
+2024-02-06 10:57:40,825 INFO  - X
+2024-02-06 10:57:40,825 INFO  - X
+2024-02-06 10:57:40,825 INFO  - X
+2024-02-06 10:57:40,836 INFO  - **********************************************
+2024-02-06 10:57:40,837 INFO  - **********************************************
+2024-02-06 10:57:40,837 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:57:40,837 INFO  - **********************************************
+2024-02-06 10:57:40,837 INFO  - **********************************************
+2024-02-06 10:57:40,841 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:57:40,841 INFO  - Resource path is : /user/repos
+2024-02-06 10:57:40,841 INFO  - Request payload is : {
+  "name" : "repo1",
+  "description" : "This is data driven test repo1"
+}
+2024-02-06 10:57:42,052 INFO  - Response of request : {"id":753432826,"node_id":"R_kgDOLOh4-g","name":"repo1","full_name":"muthu239/repo1","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo1","description":"This is data driven test repo1","fork":false,"url":"https://api.github.com/repos/muthu239/repo1","forks_url":"https://api.github.com/repos/muthu239/repo1/forks","keys_url":"https://api.github.com/repos/muthu239/repo1/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo1/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo1/teams","hooks_url":"https://api.github.com/repos/muthu239/repo1/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo1/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo1/events","assignees_url":"https://api.github.com/repos/muthu239/repo1/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo1/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo1/tags","blobs_url":"https://api.github.com/repos/muthu239/repo1/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo1/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo1/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo1/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo1/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo1/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo1/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo1/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo1/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo1/subscription","commits_url":"https://api.github.com/repos/muthu239/repo1/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo1/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo1/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo1/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo1/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo1/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo1/merges","archive_url":"https://api.github.com/repos/muthu239/repo1/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo1/downloads","issues_url":"https://api.github.com/repos/muthu239/repo1/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo1/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo1/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo1/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo1/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo1/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo1/deployments","created_at":"2024-02-06T05:27:43Z","updated_at":"2024-02-06T05:27:43Z","pushed_at":"2024-02-06T05:27:43Z","git_url":"git://github.com/muthu239/repo1.git","ssh_url":"git@github.com:muthu239/repo1.git","clone_url":"https://github.com/muthu239/repo1.git","svn_url":"https://github.com/muthu239/repo1","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:57:42,057 INFO  - Status code of req - 201
+2024-02-06 10:57:42,108 INFO  - Expected repo name : repo1
+2024-02-06 10:57:42,109 INFO  - Actual repo name : repo1
+2024-02-06 10:57:42,146 INFO  - Expected repo name : This is data driven test repo1
+2024-02-06 10:57:42,146 INFO  - Actual repo name : This is data driven test repo1
+2024-02-06 10:57:42,147 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:42,148 INFO  - **********************************************
+2024-02-06 10:57:42,148 INFO  - **********************************************
+2024-02-06 10:57:42,148 INFO  - X
+2024-02-06 10:57:42,148 INFO  - X
+2024-02-06 10:57:42,148 INFO  - X
+2024-02-06 10:57:42,148 INFO  - X
+2024-02-06 10:57:42,148 INFO  - X
+2024-02-06 10:57:42,165 INFO  - **********************************************
+2024-02-06 10:57:42,166 INFO  - **********************************************
+2024-02-06 10:57:42,167 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:57:42,167 INFO  - **********************************************
+2024-02-06 10:57:42,167 INFO  - **********************************************
+2024-02-06 10:57:42,171 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:57:42,172 INFO  - Resource path is : /user/repos
+2024-02-06 10:57:42,172 INFO  - Request payload is : {
+  "name" : "repo2",
+  "description" : "This is data driven test repo2"
+}
+2024-02-06 10:57:43,383 INFO  - Response of request : {"id":753432832,"node_id":"R_kgDOLOh5AA","name":"repo2","full_name":"muthu239/repo2","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo2","description":"This is data driven test repo2","fork":false,"url":"https://api.github.com/repos/muthu239/repo2","forks_url":"https://api.github.com/repos/muthu239/repo2/forks","keys_url":"https://api.github.com/repos/muthu239/repo2/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo2/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo2/teams","hooks_url":"https://api.github.com/repos/muthu239/repo2/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo2/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo2/events","assignees_url":"https://api.github.com/repos/muthu239/repo2/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo2/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo2/tags","blobs_url":"https://api.github.com/repos/muthu239/repo2/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo2/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo2/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo2/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo2/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo2/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo2/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo2/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo2/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo2/subscription","commits_url":"https://api.github.com/repos/muthu239/repo2/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo2/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo2/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo2/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo2/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo2/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo2/merges","archive_url":"https://api.github.com/repos/muthu239/repo2/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo2/downloads","issues_url":"https://api.github.com/repos/muthu239/repo2/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo2/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo2/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo2/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo2/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo2/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo2/deployments","created_at":"2024-02-06T05:27:44Z","updated_at":"2024-02-06T05:27:45Z","pushed_at":"2024-02-06T05:27:45Z","git_url":"git://github.com/muthu239/repo2.git","ssh_url":"git@github.com:muthu239/repo2.git","clone_url":"https://github.com/muthu239/repo2.git","svn_url":"https://github.com/muthu239/repo2","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:57:43,385 INFO  - Status code of req - 201
+2024-02-06 10:57:43,430 INFO  - Expected repo name : repo2
+2024-02-06 10:57:43,430 INFO  - Actual repo name : repo2
+2024-02-06 10:57:43,460 INFO  - Expected repo name : This is data driven test repo2
+2024-02-06 10:57:43,460 INFO  - Actual repo name : This is data driven test repo2
+2024-02-06 10:57:43,461 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:43,461 INFO  - **********************************************
+2024-02-06 10:57:43,461 INFO  - **********************************************
+2024-02-06 10:57:43,461 INFO  - X
+2024-02-06 10:57:43,461 INFO  - X
+2024-02-06 10:57:43,461 INFO  - X
+2024-02-06 10:57:43,461 INFO  - X
+2024-02-06 10:57:43,461 INFO  - X
+2024-02-06 10:57:43,476 INFO  - **********************************************
+2024-02-06 10:57:43,477 INFO  - **********************************************
+2024-02-06 10:57:43,477 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:57:43,477 INFO  - **********************************************
+2024-02-06 10:57:43,477 INFO  - **********************************************
+2024-02-06 10:57:43,482 INFO  - Bas URI is : https://api.github.com
+2024-02-06 10:57:43,483 INFO  - Resource path is : /user/repos
+2024-02-06 10:57:43,483 INFO  - Request payload is : {
+  "name" : "repo3",
+  "description" : "This is data driven test repo3"
+}
+2024-02-06 10:57:44,721 INFO  - Response of request : {"id":753432842,"node_id":"R_kgDOLOh5Cg","name":"repo3","full_name":"muthu239/repo3","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo3","description":"This is data driven test repo3","fork":false,"url":"https://api.github.com/repos/muthu239/repo3","forks_url":"https://api.github.com/repos/muthu239/repo3/forks","keys_url":"https://api.github.com/repos/muthu239/repo3/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo3/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo3/teams","hooks_url":"https://api.github.com/repos/muthu239/repo3/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo3/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo3/events","assignees_url":"https://api.github.com/repos/muthu239/repo3/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo3/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo3/tags","blobs_url":"https://api.github.com/repos/muthu239/repo3/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo3/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo3/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo3/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo3/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo3/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo3/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo3/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo3/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo3/subscription","commits_url":"https://api.github.com/repos/muthu239/repo3/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo3/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo3/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo3/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo3/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo3/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo3/merges","archive_url":"https://api.github.com/repos/muthu239/repo3/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo3/downloads","issues_url":"https://api.github.com/repos/muthu239/repo3/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo3/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo3/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo3/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo3/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo3/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo3/deployments","created_at":"2024-02-06T05:27:46Z","updated_at":"2024-02-06T05:27:46Z","pushed_at":"2024-02-06T05:27:46Z","git_url":"git://github.com/muthu239/repo3.git","ssh_url":"git@github.com:muthu239/repo3.git","clone_url":"https://github.com/muthu239/repo3.git","svn_url":"https://github.com/muthu239/repo3","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 10:57:44,722 INFO  - Status code of req - 201
+2024-02-06 10:57:44,772 INFO  - Expected repo name : repo3
+2024-02-06 10:57:44,773 INFO  - Actual repo name : repo3
+2024-02-06 10:57:44,825 INFO  - Expected repo name : This is data driven test repo3
+2024-02-06 10:57:44,826 INFO  - Actual repo name : This is data driven test repo3
+2024-02-06 10:57:44,826 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:44,826 INFO  - **********************************************
+2024-02-06 10:57:44,826 INFO  - **********************************************
+2024-02-06 10:57:44,826 INFO  - X
+2024-02-06 10:57:44,826 INFO  - X
+2024-02-06 10:57:44,826 INFO  - X
+2024-02-06 10:57:44,826 INFO  - X
+2024-02-06 10:57:44,826 INFO  - X
+2024-02-06 10:57:44,838 INFO  - **********************************************
+2024-02-06 10:57:44,839 INFO  - **********************************************
+2024-02-06 10:57:44,839 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:57:44,839 INFO  - **********************************************
+2024-02-06 10:57:44,840 INFO  - **********************************************
+2024-02-06 10:57:44,846 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo1
+2024-02-06 10:57:45,623 INFO  - Delete req status code is : 204
+2024-02-06 10:57:45,623 INFO  - Status code of req - 204
+2024-02-06 10:57:45,624 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:45,624 INFO  - **********************************************
+2024-02-06 10:57:45,624 INFO  - **********************************************
+2024-02-06 10:57:45,624 INFO  - X
+2024-02-06 10:57:45,624 INFO  - X
+2024-02-06 10:57:45,624 INFO  - X
+2024-02-06 10:57:45,624 INFO  - X
+2024-02-06 10:57:45,624 INFO  - X
+2024-02-06 10:57:45,636 INFO  - **********************************************
+2024-02-06 10:57:45,636 INFO  - **********************************************
+2024-02-06 10:57:45,636 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:57:45,637 INFO  - **********************************************
+2024-02-06 10:57:45,637 INFO  - **********************************************
+2024-02-06 10:57:45,641 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo2
+2024-02-06 10:57:46,350 INFO  - Delete req status code is : 204
+2024-02-06 10:57:46,350 INFO  - Status code of req - 204
+2024-02-06 10:57:46,351 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:46,351 INFO  - **********************************************
+2024-02-06 10:57:46,351 INFO  - **********************************************
+2024-02-06 10:57:46,351 INFO  - X
+2024-02-06 10:57:46,351 INFO  - X
+2024-02-06 10:57:46,352 INFO  - X
+2024-02-06 10:57:46,352 INFO  - X
+2024-02-06 10:57:46,352 INFO  - X
+2024-02-06 10:57:46,373 INFO  - **********************************************
+2024-02-06 10:57:46,373 INFO  - **********************************************
+2024-02-06 10:57:46,373 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 10:57:46,373 INFO  - **********************************************
+2024-02-06 10:57:46,374 INFO  - **********************************************
+2024-02-06 10:57:46,376 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo3
+2024-02-06 10:57:47,170 INFO  - Delete req status code is : 204
+2024-02-06 10:57:47,171 INFO  - Status code of req - 204
+2024-02-06 10:57:47,171 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 10:57:47,171 INFO  - **********************************************
+2024-02-06 10:57:47,171 INFO  - **********************************************
+2024-02-06 10:57:47,171 INFO  - X
+2024-02-06 10:57:47,172 INFO  - X
+2024-02-06 10:57:47,172 INFO  - X
+2024-02-06 10:57:47,172 INFO  - X
+2024-02-06 10:57:47,172 INFO  - X
+2024-02-06 14:52:11,965 INFO  - **********************************************
+2024-02-06 14:52:12,047 INFO  - **********************************************
+2024-02-06 14:52:12,047 INFO  - $$$$$$$$$    verify create Repo API     $$$$$$$$$$$$$$
+2024-02-06 14:52:12,047 INFO  - **********************************************
+2024-02-06 14:52:12,047 INFO  - **********************************************
+2024-02-06 14:52:12,493 INFO  - Bas URI is : https://api.github.com
+2024-02-06 14:52:12,493 INFO  - Resource path is : /user/repos
+2024-02-06 14:52:12,493 INFO  - Request payload is : {
+  "name" : "API-TEST-REPO",
+  "description" : "API repo created via BDD Test"
+}
+2024-02-06 14:52:16,047 INFO  - Response of request : {"id":753513983,"node_id":"R_kgDOLOm1_w","name":"API-TEST-REPO","full_name":"muthu239/API-TEST-REPO","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/API-TEST-REPO","description":"API repo created via BDD Test","fork":false,"url":"https://api.github.com/repos/muthu239/API-TEST-REPO","forks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/forks","keys_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/teams","hooks_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/hooks","issue_events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/events","assignees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/tags","blobs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/languages","stargazers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/stargazers","contributors_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contributors","subscribers_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscribers","subscription_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/subscription","commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/merges","archive_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/downloads","issues_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/API-TEST-REPO/deployments","created_at":"2024-02-06T09:22:18Z","updated_at":"2024-02-06T09:22:18Z","pushed_at":"2024-02-06T09:22:18Z","git_url":"git://github.com/muthu239/API-TEST-REPO.git","ssh_url":"git@github.com:muthu239/API-TEST-REPO.git","clone_url":"https://github.com/muthu239/API-TEST-REPO.git","svn_url":"https://github.com/muthu239/API-TEST-REPO","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 14:52:16,075 INFO  - Status code of req - 201
+2024-02-06 14:52:17,070 INFO  - Expected repo name : API-TEST-REPO
+2024-02-06 14:52:17,070 INFO  - Actual repo name : API-TEST-REPO
+2024-02-06 14:52:17,096 INFO  - Expected repo name : API repo created via BDD Test
+2024-02-06 14:52:17,097 INFO  - Actual repo name : API repo created via BDD Test
+2024-02-06 14:52:17,097 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:17,097 INFO  - **********************************************
+2024-02-06 14:52:17,097 INFO  - **********************************************
+2024-02-06 14:52:17,097 INFO  - X
+2024-02-06 14:52:17,097 INFO  - X
+2024-02-06 14:52:17,097 INFO  - X
+2024-02-06 14:52:17,098 INFO  - X
+2024-02-06 14:52:17,098 INFO  - X
+2024-02-06 14:52:17,111 INFO  - **********************************************
+2024-02-06 14:52:17,111 INFO  - **********************************************
+2024-02-06 14:52:17,111 INFO  - $$$$$$$$$    Verify Delete repo API     $$$$$$$$$$$$$$
+2024-02-06 14:52:17,112 INFO  - **********************************************
+2024-02-06 14:52:17,112 INFO  - **********************************************
+2024-02-06 14:52:17,113 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/API-TEST-REPO
+2024-02-06 14:52:17,713 INFO  - Delete req status code is : 204
+2024-02-06 14:52:17,714 INFO  - Status code of req - 204
+2024-02-06 14:52:17,714 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:17,714 INFO  - **********************************************
+2024-02-06 14:52:17,715 INFO  - **********************************************
+2024-02-06 14:52:17,715 INFO  - X
+2024-02-06 14:52:17,715 INFO  - X
+2024-02-06 14:52:17,715 INFO  - X
+2024-02-06 14:52:17,715 INFO  - X
+2024-02-06 14:52:17,715 INFO  - X
+2024-02-06 14:52:17,725 INFO  - **********************************************
+2024-02-06 14:52:17,726 INFO  - **********************************************
+2024-02-06 14:52:17,726 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 14:52:17,726 INFO  - **********************************************
+2024-02-06 14:52:17,726 INFO  - **********************************************
+2024-02-06 14:52:17,728 INFO  - Bas URI is : https://api.github.com
+2024-02-06 14:52:17,728 INFO  - Resource path is : /user/repos
+2024-02-06 14:52:17,728 INFO  - Request payload is : {
+  "name" : "repo1",
+  "description" : "This is data driven test repo1"
+}
+2024-02-06 14:52:18,731 INFO  - Response of request : {"id":753514002,"node_id":"R_kgDOLOm2Eg","name":"repo1","full_name":"muthu239/repo1","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo1","description":"This is data driven test repo1","fork":false,"url":"https://api.github.com/repos/muthu239/repo1","forks_url":"https://api.github.com/repos/muthu239/repo1/forks","keys_url":"https://api.github.com/repos/muthu239/repo1/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo1/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo1/teams","hooks_url":"https://api.github.com/repos/muthu239/repo1/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo1/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo1/events","assignees_url":"https://api.github.com/repos/muthu239/repo1/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo1/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo1/tags","blobs_url":"https://api.github.com/repos/muthu239/repo1/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo1/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo1/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo1/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo1/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo1/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo1/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo1/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo1/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo1/subscription","commits_url":"https://api.github.com/repos/muthu239/repo1/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo1/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo1/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo1/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo1/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo1/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo1/merges","archive_url":"https://api.github.com/repos/muthu239/repo1/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo1/downloads","issues_url":"https://api.github.com/repos/muthu239/repo1/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo1/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo1/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo1/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo1/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo1/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo1/deployments","created_at":"2024-02-06T09:22:20Z","updated_at":"2024-02-06T09:22:21Z","pushed_at":"2024-02-06T09:22:21Z","git_url":"git://github.com/muthu239/repo1.git","ssh_url":"git@github.com:muthu239/repo1.git","clone_url":"https://github.com/muthu239/repo1.git","svn_url":"https://github.com/muthu239/repo1","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 14:52:18,732 INFO  - Status code of req - 201
+2024-02-06 14:52:18,763 INFO  - Expected repo name : repo1
+2024-02-06 14:52:18,764 INFO  - Actual repo name : repo1
+2024-02-06 14:52:18,788 INFO  - Expected repo name : This is data driven test repo1
+2024-02-06 14:52:18,789 INFO  - Actual repo name : This is data driven test repo1
+2024-02-06 14:52:18,789 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:18,789 INFO  - **********************************************
+2024-02-06 14:52:18,789 INFO  - **********************************************
+2024-02-06 14:52:18,789 INFO  - X
+2024-02-06 14:52:18,789 INFO  - X
+2024-02-06 14:52:18,790 INFO  - X
+2024-02-06 14:52:18,790 INFO  - X
+2024-02-06 14:52:18,790 INFO  - X
+2024-02-06 14:52:18,798 INFO  - **********************************************
+2024-02-06 14:52:18,798 INFO  - **********************************************
+2024-02-06 14:52:18,798 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 14:52:18,798 INFO  - **********************************************
+2024-02-06 14:52:18,799 INFO  - **********************************************
+2024-02-06 14:52:18,801 INFO  - Bas URI is : https://api.github.com
+2024-02-06 14:52:18,801 INFO  - Resource path is : /user/repos
+2024-02-06 14:52:18,801 INFO  - Request payload is : {
+  "name" : "repo2",
+  "description" : "This is data driven test repo2"
+}
+2024-02-06 14:52:19,703 INFO  - Response of request : {"id":753514014,"node_id":"R_kgDOLOm2Hg","name":"repo2","full_name":"muthu239/repo2","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo2","description":"This is data driven test repo2","fork":false,"url":"https://api.github.com/repos/muthu239/repo2","forks_url":"https://api.github.com/repos/muthu239/repo2/forks","keys_url":"https://api.github.com/repos/muthu239/repo2/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo2/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo2/teams","hooks_url":"https://api.github.com/repos/muthu239/repo2/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo2/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo2/events","assignees_url":"https://api.github.com/repos/muthu239/repo2/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo2/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo2/tags","blobs_url":"https://api.github.com/repos/muthu239/repo2/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo2/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo2/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo2/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo2/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo2/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo2/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo2/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo2/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo2/subscription","commits_url":"https://api.github.com/repos/muthu239/repo2/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo2/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo2/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo2/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo2/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo2/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo2/merges","archive_url":"https://api.github.com/repos/muthu239/repo2/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo2/downloads","issues_url":"https://api.github.com/repos/muthu239/repo2/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo2/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo2/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo2/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo2/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo2/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo2/deployments","created_at":"2024-02-06T09:22:21Z","updated_at":"2024-02-06T09:22:22Z","pushed_at":"2024-02-06T09:22:22Z","git_url":"git://github.com/muthu239/repo2.git","ssh_url":"git@github.com:muthu239/repo2.git","clone_url":"https://github.com/muthu239/repo2.git","svn_url":"https://github.com/muthu239/repo2","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 14:52:19,704 INFO  - Status code of req - 201
+2024-02-06 14:52:19,727 INFO  - Expected repo name : repo2
+2024-02-06 14:52:19,727 INFO  - Actual repo name : repo2
+2024-02-06 14:52:19,750 INFO  - Expected repo name : This is data driven test repo2
+2024-02-06 14:52:19,750 INFO  - Actual repo name : This is data driven test repo2
+2024-02-06 14:52:19,751 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:19,751 INFO  - **********************************************
+2024-02-06 14:52:19,751 INFO  - **********************************************
+2024-02-06 14:52:19,751 INFO  - X
+2024-02-06 14:52:19,751 INFO  - X
+2024-02-06 14:52:19,751 INFO  - X
+2024-02-06 14:52:19,751 INFO  - X
+2024-02-06 14:52:19,751 INFO  - X
+2024-02-06 14:52:19,758 INFO  - **********************************************
+2024-02-06 14:52:19,759 INFO  - **********************************************
+2024-02-06 14:52:19,759 INFO  - $$$$$$$$$    verify create Repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 14:52:19,759 INFO  - **********************************************
+2024-02-06 14:52:19,759 INFO  - **********************************************
+2024-02-06 14:52:19,761 INFO  - Bas URI is : https://api.github.com
+2024-02-06 14:52:19,761 INFO  - Resource path is : /user/repos
+2024-02-06 14:52:19,761 INFO  - Request payload is : {
+  "name" : "repo3",
+  "description" : "This is data driven test repo3"
+}
+2024-02-06 14:52:20,874 INFO  - Response of request : {"id":753514017,"node_id":"R_kgDOLOm2IQ","name":"repo3","full_name":"muthu239/repo3","private":false,"owner":{"login":"muthu239","id":85735856,"node_id":"MDQ6VXNlcjg1NzM1ODU2","avatar_url":"https://avatars.githubusercontent.com/u/85735856?v=4","gravatar_id":"","url":"https://api.github.com/users/muthu239","html_url":"https://github.com/muthu239","followers_url":"https://api.github.com/users/muthu239/followers","following_url":"https://api.github.com/users/muthu239/following{/other_user}","gists_url":"https://api.github.com/users/muthu239/gists{/gist_id}","starred_url":"https://api.github.com/users/muthu239/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muthu239/subscriptions","organizations_url":"https://api.github.com/users/muthu239/orgs","repos_url":"https://api.github.com/users/muthu239/repos","events_url":"https://api.github.com/users/muthu239/events{/privacy}","received_events_url":"https://api.github.com/users/muthu239/received_events","type":"User","site_admin":false},"html_url":"https://github.com/muthu239/repo3","description":"This is data driven test repo3","fork":false,"url":"https://api.github.com/repos/muthu239/repo3","forks_url":"https://api.github.com/repos/muthu239/repo3/forks","keys_url":"https://api.github.com/repos/muthu239/repo3/keys{/key_id}","collaborators_url":"https://api.github.com/repos/muthu239/repo3/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/muthu239/repo3/teams","hooks_url":"https://api.github.com/repos/muthu239/repo3/hooks","issue_events_url":"https://api.github.com/repos/muthu239/repo3/issues/events{/number}","events_url":"https://api.github.com/repos/muthu239/repo3/events","assignees_url":"https://api.github.com/repos/muthu239/repo3/assignees{/user}","branches_url":"https://api.github.com/repos/muthu239/repo3/branches{/branch}","tags_url":"https://api.github.com/repos/muthu239/repo3/tags","blobs_url":"https://api.github.com/repos/muthu239/repo3/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/muthu239/repo3/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/muthu239/repo3/git/refs{/sha}","trees_url":"https://api.github.com/repos/muthu239/repo3/git/trees{/sha}","statuses_url":"https://api.github.com/repos/muthu239/repo3/statuses/{sha}","languages_url":"https://api.github.com/repos/muthu239/repo3/languages","stargazers_url":"https://api.github.com/repos/muthu239/repo3/stargazers","contributors_url":"https://api.github.com/repos/muthu239/repo3/contributors","subscribers_url":"https://api.github.com/repos/muthu239/repo3/subscribers","subscription_url":"https://api.github.com/repos/muthu239/repo3/subscription","commits_url":"https://api.github.com/repos/muthu239/repo3/commits{/sha}","git_commits_url":"https://api.github.com/repos/muthu239/repo3/git/commits{/sha}","comments_url":"https://api.github.com/repos/muthu239/repo3/comments{/number}","issue_comment_url":"https://api.github.com/repos/muthu239/repo3/issues/comments{/number}","contents_url":"https://api.github.com/repos/muthu239/repo3/contents/{+path}","compare_url":"https://api.github.com/repos/muthu239/repo3/compare/{base}...{head}","merges_url":"https://api.github.com/repos/muthu239/repo3/merges","archive_url":"https://api.github.com/repos/muthu239/repo3/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/muthu239/repo3/downloads","issues_url":"https://api.github.com/repos/muthu239/repo3/issues{/number}","pulls_url":"https://api.github.com/repos/muthu239/repo3/pulls{/number}","milestones_url":"https://api.github.com/repos/muthu239/repo3/milestones{/number}","notifications_url":"https://api.github.com/repos/muthu239/repo3/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/muthu239/repo3/labels{/name}","releases_url":"https://api.github.com/repos/muthu239/repo3/releases{/id}","deployments_url":"https://api.github.com/repos/muthu239/repo3/deployments","created_at":"2024-02-06T09:22:22Z","updated_at":"2024-02-06T09:22:23Z","pushed_at":"2024-02-06T09:22:23Z","git_url":"git://github.com/muthu239/repo3.git","ssh_url":"git@github.com:muthu239/repo3.git","clone_url":"https://github.com/muthu239/repo3.git","svn_url":"https://github.com/muthu239/repo3","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","network_count":0,"subscribers_count":0}
+2024-02-06 14:52:20,875 INFO  - Status code of req - 201
+2024-02-06 14:52:20,896 INFO  - Expected repo name : repo3
+2024-02-06 14:52:20,896 INFO  - Actual repo name : repo3
+2024-02-06 14:52:20,915 INFO  - Expected repo name : This is data driven test repo3
+2024-02-06 14:52:20,915 INFO  - Actual repo name : This is data driven test repo3
+2024-02-06 14:52:20,915 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:20,916 INFO  - **********************************************
+2024-02-06 14:52:20,916 INFO  - **********************************************
+2024-02-06 14:52:20,916 INFO  - X
+2024-02-06 14:52:20,916 INFO  - X
+2024-02-06 14:52:20,916 INFO  - X
+2024-02-06 14:52:20,916 INFO  - X
+2024-02-06 14:52:20,916 INFO  - X
+2024-02-06 14:52:20,922 INFO  - **********************************************
+2024-02-06 14:52:20,922 INFO  - **********************************************
+2024-02-06 14:52:20,922 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 14:52:20,923 INFO  - **********************************************
+2024-02-06 14:52:20,923 INFO  - **********************************************
+2024-02-06 14:52:20,925 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo1
+2024-02-06 14:52:26,727 INFO  - Delete req status code is : 204
+2024-02-06 14:52:26,727 INFO  - Status code of req - 204
+2024-02-06 14:52:26,727 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:26,728 INFO  - **********************************************
+2024-02-06 14:52:26,728 INFO  - **********************************************
+2024-02-06 14:52:26,728 INFO  - X
+2024-02-06 14:52:26,728 INFO  - X
+2024-02-06 14:52:26,728 INFO  - X
+2024-02-06 14:52:26,728 INFO  - X
+2024-02-06 14:52:26,729 INFO  - X
+2024-02-06 14:52:26,735 INFO  - **********************************************
+2024-02-06 14:52:26,735 INFO  - **********************************************
+2024-02-06 14:52:26,735 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 14:52:26,735 INFO  - **********************************************
+2024-02-06 14:52:26,735 INFO  - **********************************************
+2024-02-06 14:52:26,738 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo2
+2024-02-06 14:52:27,238 INFO  - Delete req status code is : 204
+2024-02-06 14:52:27,239 INFO  - Status code of req - 204
+2024-02-06 14:52:27,239 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:27,239 INFO  - **********************************************
+2024-02-06 14:52:27,240 INFO  - **********************************************
+2024-02-06 14:52:27,240 INFO  - X
+2024-02-06 14:52:27,240 INFO  - X
+2024-02-06 14:52:27,240 INFO  - X
+2024-02-06 14:52:27,240 INFO  - X
+2024-02-06 14:52:27,240 INFO  - X
+2024-02-06 14:52:27,248 INFO  - **********************************************
+2024-02-06 14:52:27,248 INFO  - **********************************************
+2024-02-06 14:52:27,248 INFO  - $$$$$$$$$    Verify Delete repo API using scenario Outline     $$$$$$$$$$$$$$
+2024-02-06 14:52:27,248 INFO  - **********************************************
+2024-02-06 14:52:27,248 INFO  - **********************************************
+2024-02-06 14:52:27,249 INFO  - Delete request URI  : https://api.github.com/repos/muthu239/repo3
+2024-02-06 14:52:27,821 INFO  - Delete req status code is : 204
+2024-02-06 14:52:27,821 INFO  - Status code of req - 204
+2024-02-06 14:52:27,821 INFO  - XXXXXXXXX    ---E----N---D---     xxxxxxxxxx
+2024-02-06 14:52:27,821 INFO  - **********************************************
+2024-02-06 14:52:27,822 INFO  - **********************************************
+2024-02-06 14:52:27,822 INFO  - X
+2024-02-06 14:52:27,822 INFO  - X
+2024-02-06 14:52:27,822 INFO  - X
+2024-02-06 14:52:27,822 INFO  - X
+2024-02-06 14:52:27,822 INFO  - X

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Sample" verbose="1">
+    <test name="Sample" preserve-order="true">
+        <classes>
+            <class name="com.testng.retry.SampleClassTwo"/>
+            <class name="com.testng.retry.SampleClassOne"/>
+        </classes>
+    </test>
+</suite>

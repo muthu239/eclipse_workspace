@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-15T18:02:00 IST" name="Default suite" finished-at="2024-01-15T18:02:08 IST" duration-ms="8542">
+    <groups>
+    </groups>
+    <test started-at="2024-01-15T18:02:00 IST" name="Default test" finished-at="2024-01-15T18:02:08 IST" duration-ms="8542">
+      <class name="basic.testcase.CreateRepoTest">
+        <test-method signature="createRepoTestCase()[pri:1, instance:basic.testcase.CreateRepoTest@1da2cb77]" started-at="2024-01-15T18:02:00 IST" name="createRepoTestCase" finished-at="2024-01-15T18:02:05 IST" duration-ms="4932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRepoTestCase -->
+        <test-method signature="createRepoTest()[pri:2, instance:basic.testcase.CreateRepoTest@1da2cb77]" started-at="2024-01-15T18:02:05 IST" name="createRepoTest" finished-at="2024-01-15T18:02:07 IST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRepoTest -->
+        <test-method signature="deleteRepo()[pri:3, instance:basic.testcase.CreateRepoTest@1da2cb77]" started-at="2024-01-15T18:02:07 IST" name="deleteRepo" finished-at="2024-01-15T18:02:07 IST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRepo -->
+        <test-method signature="deleteRepoPOJO()[pri:4, instance:basic.testcase.CreateRepoTest@1da2cb77]" started-at="2024-01-15T18:02:07 IST" name="deleteRepoPOJO" finished-at="2024-01-15T18:02:08 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRepoPOJO -->
+      </class> <!-- basic.testcase.CreateRepoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
