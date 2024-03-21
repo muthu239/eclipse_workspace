@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-02T08:22:29 IST" name="TestNG Listener Suite" finished-at="2024-02-02T08:22:29 IST" duration-ms="84">
+  <suite started-at="2024-03-21T06:03:13 IST" name="Default suite" finished-at="2024-03-21T06:03:13 IST" duration-ms="75">
     <groups>
     </groups>
-    <test started-at="2024-02-02T08:22:29 IST" name="Listener Test Case" finished-at="2024-02-02T08:22:29 IST" duration-ms="84">
+    <test started-at="2024-03-21T06:03:13 IST" name="Default test" finished-at="2024-03-21T06:03:13 IST" duration-ms="75">
       <class name="com.testng.listeners.SampleTestClass">
-        <test-method signature="testFour()[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-02-02T08:22:29 IST" name="testFour" finished-at="2024-02-02T08:22:29 IST" duration-ms="11" status="SKIP">
+        <test-method signature="testFour()[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-03-21T06:03:13 IST" name="testFour" finished-at="2024-03-21T06:03:13 IST" duration-ms="8" status="SKIP">
           <exception class="org.testng.SkipException">
             <full-stacktrace>
               <![CDATA[org.testng.SkipException
@@ -46,7 +46,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFour -->
-        <test-method signature="testGetData(java.lang.String)[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-02-02T08:22:29 IST" name="testGetData" data-provider="dataprovider" finished-at="2024-02-02T08:22:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="testGetData(java.lang.String)[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-03-21T06:03:13 IST" name="testGetData" data-provider="dataprovider" finished-at="2024-03-21T06:03:13 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetData -->
-        <test-method signature="testGetData(java.lang.String)[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-02-02T08:22:29 IST" name="testGetData" data-provider="dataprovider" finished-at="2024-02-02T08:22:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="testGetData(java.lang.String)[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-03-21T06:03:13 IST" name="testGetData" data-provider="dataprovider" finished-at="2024-03-21T06:03:13 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetData -->
-        <test-method signature="testOne()[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-02-02T08:22:29 IST" name="testOne" finished-at="2024-02-02T08:22:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="testOne()[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-03-21T06:03:13 IST" name="testOne" finished-at="2024-03-21T06:03:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method signature="testThree()[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-02-02T08:22:29 IST" name="testThree" finished-at="2024-02-02T08:22:29 IST" duration-ms="4" status="FAIL">
+        <test-method signature="testThree()[pri:0, instance:com.testng.listeners.SampleTestClass@1b6e1eff]" started-at="2024-03-21T06:03:13 IST" name="testThree" finished-at="2024-03-21T06:03:13 IST" duration-ms="4" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [7] but found [5]]]>
@@ -121,6 +121,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- testThree -->
       </class> <!-- com.testng.listeners.SampleTestClass -->
-    </test> <!-- Listener Test Case -->
-  </suite> <!-- TestNG Listener Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

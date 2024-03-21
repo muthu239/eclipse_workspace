@@ -1,7 +1,6 @@
 package com.selenium.master3;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -39,6 +38,13 @@ WebDriver driver = null;
 		WebElement userName = driver.findElement(By.id("login1"));
 		js.executeScript("arguments[0].value = 'abc@xyz.com'", userName);
 		
+		
+//	 Scrolling down the page till the element is found		
+//        js.executeScript("arguments[0].scrollIntoView();", Element);
+		
+//	  Scroll down to the bottom of the webpage
+//		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+        
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
