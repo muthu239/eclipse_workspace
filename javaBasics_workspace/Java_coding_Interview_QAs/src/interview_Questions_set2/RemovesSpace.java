@@ -8,6 +8,7 @@ public class RemovesSpace {
 		
 		 char[] charArr = str.toCharArray();
 		 
+		 
 		 for(char a : charArr) {
 			 if(!Character.isWhitespace(a)) {
 				 finalStr = finalStr+a;

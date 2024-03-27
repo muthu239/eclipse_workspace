@@ -499,3 +499,24 @@
 2024-03-21 05:07:55,605 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-03-21 05:08:30,011 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
 2024-03-21 05:08:30,358 [Worker-3: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-03-21 21:48:43,980 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-22 04:43:06,915 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-22 05:11:18,355 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.10+7
+2024-03-22 05:11:18,522 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@28e3262b{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@608a7a98{STARTED}}
+2024-03-22 05:11:18,524 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-03-22 05:11:18,666 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1a02e0f0{HTTP/1.1, (http/1.1)}{127.0.0.1:61633}
+2024-03-22 05:11:19,035 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@72c2369a{STARTING}[12.0.3,sto=0] @1775774ms
+2024-03-22 05:16:13,503 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\SeleniumPOMFramework\src\main\resources
+2024-03-22 05:16:13,512 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\SeleniumPOMFramework\src\test\resources
+2024-03-22 06:31:42,698 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@72c2369a{STOPPING}[12.0.3,sto=0]
+2024-03-22 06:31:42,781 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1a02e0f0{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-03-22 09:35:59,646 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-22 10:17:29,980 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.10+7
+2024-03-22 10:17:30,098 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@61bda285{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7c62b781{STARTED}}
+2024-03-22 10:17:30,098 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-03-22 10:17:30,362 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3fe9d52f{HTTP/1.1, (http/1.1)}{127.0.0.1:4599}
+2024-03-22 10:17:31,913 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@3da365b{STARTING}[12.0.3,sto=0] @3186054ms
+2024-03-22 15:57:17,483 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@3da365b{STOPPING}[12.0.3,sto=0]
+2024-03-22 15:57:17,622 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3fe9d52f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-03-23 04:04:54,225 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-23 09:42:13,920 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

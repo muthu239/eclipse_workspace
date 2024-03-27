@@ -22,6 +22,7 @@ public class OddNumberOfOccurence {
 		
 		int i;
 		
+		
 		HashMap<Integer, Integer> elements= new HashMap<Integer, Integer>();
 		
 		for(i = 0; i<arr.length ; i++) {
@@ -33,12 +34,13 @@ public class OddNumberOfOccurence {
 			}
 		}
 		
-		for(Entry<Integer, Integer> entry : elements.entrySet()) {
-			if(entry.getValue()%2 == 1) {
-				return entry.getKey();
+		for(int key : elements.keySet()) {
+			if(elements.get(key)%2 ==1) {
+				return key;	
 			}
 		}
 		
+
 		return -1;
 	}
 	

@@ -24,7 +24,8 @@ public class HandleJsonArrayGit {
 		then().
 			assertThat().statusCode(200).and().
 			contentType(ContentType.JSON).and().log().all().
-			extract().response();
+		extract().
+			response();
 		
 		String jsonResponse = response.asString();
 		JsonPath responseBody = new JsonPath(jsonResponse);

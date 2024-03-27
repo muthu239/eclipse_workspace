@@ -43,9 +43,9 @@ public class CountWords {
 			String line = br.readLine();
 			while (line != null) {
 				String a[] = line.split("\\s+");
-
+				
 				// Save count of Words in File
-				wordCount = a.length;
+				wordCount += a.length;
 				line = br.readLine();
 			}
 			System.out.print("Total number of words : " + wordCount);
