@@ -1,4 +1,4 @@
-package javaBasic;
+package interview_Questions_set3;
 
 public class PrintCharAsPerNoOfTimes {
 

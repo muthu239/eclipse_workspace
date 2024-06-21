@@ -1,6 +1,14 @@
 package patternPrinting;
 
 public class pattern2 {
+	
+//    1
+//   11
+//  111
+// 1111
+
+	
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
