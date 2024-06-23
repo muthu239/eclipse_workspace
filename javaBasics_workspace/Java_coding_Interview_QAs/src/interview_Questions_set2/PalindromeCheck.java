@@ -44,7 +44,7 @@ public class PalindromeCheck {
 		
 		System.out.println(palindromeString("apple"));
 		
-		System.out.println(palindromeNumber(12521));
+		System.out.println(palindromeNumber(1250521));
 		
 		System.out.println(palindromeNumber(5634));
 		
