@@ -16,7 +16,14 @@ public class RemoveDuplicatesInArray {
 			newSet.add(arr[i]);
 		}
 		
-				
+		System.out.println("Traverse through set using for");
+		//Traverse through set using for
+		for(int i : newSet) {
+			System.out.println(i);
+		}
+		
+		System.out.println("Traverse through set using Iterator");
+		//Traverse through set using Iterator		
 		Iterator it = newSet.iterator();
 		while(it.hasNext()) { 
 			System.out.println(it.next()); 

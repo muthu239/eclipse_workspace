@@ -5,7 +5,7 @@ public class RemovesSpace {
 	public static void removeWhitSpace(String str) {
 		
 		String finalStr = "";
-		
+//		System.out.println(str.replace(" ", ""));
 		 char[] charArr = str.toCharArray();
 		 
 		 
