@@ -54,6 +54,7 @@ public class ArraySortedInWaveform {
         System.out.println("\nSorted array -> Wave Array");
         for (int i : arr)
             System.out.print(i + " ");
+       
     }
 
 }
