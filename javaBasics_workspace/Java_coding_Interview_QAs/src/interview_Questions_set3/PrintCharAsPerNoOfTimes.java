@@ -24,7 +24,7 @@ public class PrintCharAsPerNoOfTimes {
 		int count = 0;
 		for(int i=1;i<pattern.length();i=i+2) {
 			char c = pattern.charAt(i);
-			int n = count * 10+c-'0';
+			int n = count * 10 + c-'0';                     //Same as the method2 but written in logical way instead of using inbuilt methods
 			for(int j = 0;j<n;j=j+1) {
 				newPattern = newPattern+pattern.charAt(i-1);
 			}

@@ -547,3 +547,64 @@
 2024-07-13 12:33:22,585 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@22681cd3{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
 2024-07-13 12:37:19,231 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-07-19 03:54:17,326 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-20 09:13:53,352 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-20 10:17:54,279 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.10+7
+2024-09-20 10:17:54,443 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@361ba5ad{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@39dfea0e{STARTED}}
+2024-09-20 10:17:54,444 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-09-20 10:17:54,592 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2e0ace62{HTTP/1.1, (http/1.1)}{127.0.0.1:38701}
+2024-09-20 10:17:55,083 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@3b9bc6ef{STARTING}[12.0.3,sto=0] @6163256ms
+2024-09-20 10:23:10,346 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@3b9bc6ef{STOPPING}[12.0.3,sto=0]
+2024-09-20 10:23:10,349 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2e0ace62{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-10-17 10:23:10,917 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-17 10:27:37,204 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.10+7
+2024-10-17 10:27:37,412 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@2c7180f2{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7702bf50{STARTED}}
+2024-10-17 10:27:37,413 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-10-17 10:27:37,580 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@32c17845{HTTP/1.1, (http/1.1)}{127.0.0.1:63546}
+2024-10-17 10:27:37,947 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@c076837{STARTING}[12.0.3,sto=0] @584273ms
+2024-10-17 10:34:43,428 [Worker-27: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-10-17 10:34:43,470 [Worker-27: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-10-17 10:34:50,772 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\BDDCucumberFramework\src\main\resources
+2024-10-17 10:34:50,803 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\BDDCucumberFramework\src\test\resources
+2024-10-17 10:34:53,854 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\CalculateInterest\src\main\resources
+2024-10-17 10:34:53,907 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-10-17 10:34:57,607 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\DataDrivenFramework\src\main\resources
+2024-10-17 10:34:57,610 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-10-17 10:35:03,364 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-17 10:35:03,365 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\InterestAmountForCurrentYear-EMICalculator\src\main\resources
+2024-10-17 10:35:03,369 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-17 10:35:03,411 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2024-10-17 10:35:11,340 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\InterestCalculator\src\main\resources
+2024-10-17 10:35:11,348 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-10-17 10:35:14,923 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\MainProject\src\main\resources
+2024-10-17 10:35:14,952 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\MainProject\src\test\resources
+2024-10-17 10:35:19,409 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\MultiWindowHandles\src\main\resources
+2024-10-17 10:35:19,412 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\MultiWindowHandles\src\test\resources
+2024-10-17 10:35:28,848 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\SeleniumPOMFramework\src\main\resources
+2024-10-17 10:35:28,850 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\SeleniumPOMFramework\src\test\resources
+2024-10-17 10:35:30,305 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-10-17 10:35:30,381 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\TestSprintRetrospection\src\test\resources
+2024-10-17 10:35:34,405 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2: https://issues.sonatype.org/browse/MVNCENTRAL-244
+2024-10-17 10:35:34,466 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\Travelinsurance\src\main\resources
+2024-10-17 10:35:34,469 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-10-17 10:35:38,599 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\cucumberUsingDatatable\src\main\resources
+2024-10-17 10:35:38,601 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\cucumberUsingDatatable\src\test\resources
+2024-10-17 10:35:39,291 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\cucumberUsingScenarioOutline\src\main\resources
+2024-10-17 10:35:39,293 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\cucumberUsingScenarioOutline\src\test\resources
+2024-10-17 10:35:40,673 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-17 10:35:40,683 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2024-10-17 10:35:42,014 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-17 10:35:42,015 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2024-10-17 10:35:48,837 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\marshalPet\src\main\resources
+2024-10-17 10:35:48,840 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-10-17 10:35:50,417 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\phptravelsCucumber\src\main\resources
+2024-10-17 10:35:50,444 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\phptravelsCucumber\src\test\resources
+2024-10-17 10:35:50,814 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\seleniumGrid\src\main\resources
+2024-10-17 10:35:50,817 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\seleniumGrid\src\test\resources
+2024-10-17 10:35:51,505 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-17 10:35:51,505 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\simpleMaven\src\main\resources
+2024-10-17 10:35:51,507 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-10-17 10:35:51,507 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\simpleMaven\src\test\resources
+2024-10-17 10:53:25,366 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\cucumberUsingDatatable\src\main\resources
+2024-10-17 10:53:25,369 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\eclipse_workspace\selenium_workspace\cucumberUsingDatatable\src\test\resources
+2024-10-17 10:53:34,009 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@c076837{STOPPING}[12.0.3,sto=0]
+2024-10-17 10:53:34,093 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@32c17845{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
